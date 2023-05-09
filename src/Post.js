@@ -38,7 +38,7 @@ return (
 	        <Navbar  />
 	</div>
 			
-			 <h1 className="relative text-white text-7xl translate-y-[-100%] translate-x-[140%]  w-fit"> {post.fields.date} </h1> 
+			 <h1 className="relative text-white text-7xl translate-y-[-100%] translate-x-[120%]  w-fit"> {post.fields.date} </h1> 
 	{post.fields.content.content.map((contentBlock, index) => {
 		if (contentBlock.nodeType === 'paragraph') {
 		return (
