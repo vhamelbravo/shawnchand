@@ -9,6 +9,7 @@ import { useParams} from 'react-router-dom'
 function BlogPage()  {
 	const [blogPosts, setBlogPosts] = useState([])
         useEffect(() => {
+		window.scrollTo(0,0)
 	const getAllEntries =  async () => {
 		try {
 		await client.getEntries().then((entries) => {
