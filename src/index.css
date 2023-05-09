@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.modal{
+overflow: hidden;
+}
+html {
+font-family: 'silkscreen', cursive;
+background-image: url("./assets/background.png");
+background-size: cover;
+overflow-x: hidden;
+cursor: url("./assets/mouse.png"), auto;
+}
+
+.btn1:hover +  .img1 {
+opacity: 0.5;
+}
+.btn2:hover + .img2 {
+opacity: 0.5;
+}
+.btn3:hover + .img3 {
+opacity: 0.5;
+}
