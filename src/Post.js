@@ -33,7 +33,7 @@ function Post() {
 return (
 	<>
 	        <div className="my-[29%]"> </div>
-	        <h1 className="text-slate-400 text-9xl translate-y-[-430%] translate-x-[40%]"> {post.fields.title} </h1>
+	        <h1 className="text-slate-400 text-9xl translate-y-[-430%] translate-x-[20%]"> {post.fields.title} </h1>
 	        <div className="translate-x-[10%]">
 	        <Navbar  />
 	</div>

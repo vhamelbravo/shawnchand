@@ -33,7 +33,7 @@ return (
 {blogPosts?.items?.map((post) => { 
 return (
 <section key={post.sys.id}>
-<Link to={`/blog/${post.sys.id}`} className="w-fit"> <h1 className="relative text-white text-7xl translate-y-[-100%] translate-x-[140%] hover:text-slate-400 w-fit">{post.fields.title} </h1> </Link>
+<Link to={`/blog/${post.sys.id}`} className="w-fit"> <h1 className="relative text-white text-6xl translate-y-[-100%] translate-x-[40%] hover:text-slate-400 w-fit">{post.fields.title} </h1> </Link>
 	<p className="text-white text-3xl translate-y-[-300%] translate-x-[350%] w-fit"> {post.fields.date} </p>
 	</section>
 	)
