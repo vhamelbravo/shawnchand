@@ -34,13 +34,13 @@ const [isVisible, setIsVisible] = useState(1)
 
 return (
 <>
-	<div className="grid border-2 border-slate-400 w-[20rem] mx-[70%] my-[-25%] h-[30.5rem]">
-	<h1 className="text-white text-3xl translate-x-[20%] translate-y-[10%] font-bold"> Navigation </h1>
+	<div className="grid border-2 border-slate-400 w-[20rem] mx-[70%] my-[-25%] h-[31.5rem]">
+	<h1 className="text-white text-3xl translate-x-[20%] translate-y-[30%] font-bold"> Navigation </h1>
 	<ul>
-	<li> <Link to="/"> <p className="text-white text-3xl translate-y-[100%] translate-x-[20%] hover:underline"> -Home  </p> </Link> </li>
-	<li> <Link to="/about"> <p className="text-white text-3xl translate-y-[100%] translate-x-[20%] hover:underline"> -About  </p> </Link> </li>
-	<li> <Link to="/blog"> <p className="text-white text-3xl translate-y-[100%] translate-x-[20%] hover:underline"> -Blog  </p> </Link> </li>
-	<li> <button onClick={toggle}> <p className="text-white text-3xl translate-y-[100%] translate-x-[30%] hover:underline"> -Portfolio  </p> </button> </li>
+	<li> <Link to="/"> <p className="text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> -Home  </p> </Link> </li>
+	<li> <Link to="/about"> <p className="text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> -About  </p> </Link> </li>
+	<li> <Link to="/blog"> <p className="text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> -Blog  </p> </Link> </li>
+	<li> <button onClick={toggle}> <p className="text-white text-3xl translate-y-[50%] translate-x-[30%] hover:underline"> -Portfolio  </p> </button> </li>
 	<Modal className="modal " active={active} toggle={toggle}>
 	<h1 className="text-slate-400 text-9xl translate-y-[50%] translate-x-[25%] "> Portfolio </h1>
 	<button onClick={handleClick} className="text-white text-6xl translate-y-[1230%] translate-x-[1350%]"> V </button>
@@ -99,14 +99,14 @@ return (
 
 
 	</Modal>
-	<li> <Link to="/services"> <p className="text-white text-3xl translate-y-[100%] translate-x-[20%] hover:underline"> -Services  </p> </Link> </li>
-	<li> <a href="mailto:shawn@shawnjc.ca"> <p className="text-white text-3xl translate-y-[100%] translate-x-[20%] hover:underline"> -Contact  </p> </a> </li>
-	<a href="https://instagram.com"> <img src={insta} className="scale-[15%] translate-y-[-20%] translate-x-[-30%]" /> </a>
-	<a href="https://twitter.com"> <img src={twitter} className="scale-[20%] translate-y-[-138%] translate-x-[2%]" /> </a>
-	<a href="https://discord.com/users/150504671033819136"> <img src={discord} className="scale-[26%] translate-y-[-300%] translate-x-[33%]" /> </a>
-	<a href="https://linkedin.com/in/shawnjasnalchand"> <img src={linkedin} className="absolute scale-[11%] my-[-43.5%] mx-[-10%] " /> </a>
-	<a href="https://reddit.com"> <img src={reddit} className="absolute scale-[11%] my-[-43.5%] mx-[-5%] " /> </a>
-	<a href="https://tiktok.com"> <img src={tiktok} className="absolute scale-[6%] my-[-55%] mx-[-12%] " /> </a>
+	<li> <Link to="/services"> <p className="text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> -Services  </p> </Link> </li>
+	<li> <a href="mailto:shawn@shawnjc.ca"> <p className="text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> -Contact  </p> </a> </li>
+	<a className="" href="https://instagram.com"> <img src={insta} className="h-fit absolute scale-[10%] translate-y-[-35%] translate-x-[-35%]" /> </a>
+	<a className="" href="https://twitter.com"> <img src={twitter} className="h-fit absolute scale-[20%] translate-y-[-20%] translate-x-[5%]" /> </a>
+	<a className=""  href="https://discord.com/users/150504671033819136"> <img src={discord} className="h-fit scale-[26%] my-[-5%] translate-x-[33%]" /> </a>
+	<a className="" href="https://linkedin.com/in/shawnjasnalchand"> <img src={linkedin} className="h-fit absolute scale-[10%] my-[-13.5%] mx-[-9.5%] " /> </a>
+	<a className=""  href="https://reddit.com"> <img src={reddit} className="h-fit absolute scale-[11%] my-[-13.5%] mx-[-4.5%] " /> </a>
+	<a className="" href="https://tiktok.com"> <img src={tiktok} className="h-fit absolute scale-[6%] my-[-25%] mx-[-12%] " /> </a>
 	</ul>
 	</div>
 </>
