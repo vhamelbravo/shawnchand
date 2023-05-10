@@ -1,16 +1,20 @@
 import React, {useState} from 'react'
 import Modal from './Modal'
 import placeholder from './assets/placeholder.png'
+import {createClient} from 'contentful'
+import {client, portfolioClient} from './client.js'
 function Portfolio () {
 const [active, setActive] = useState(false)
 const toggle = () => {	
 setActive(!active)
 }
-const [isVisible, setIsVisible] = useState(true)
-const [isSecondVisible, setIsSecondVisible] = useState(false)
+const [isVisible, setIsVisible] = useState(1)
         const handleClick = () => {
-		                setIsVisible(!isVisible)
-		                setIsSecondVisible(!isSecondVisible)
+		if (isVisible === 1) {
+		setIsVisible(2)
+		} else if (isVisible === 2) {
+		setIsVisible(3)} else if (isVisible === 3) {
+		setIsVisible(1)}
 		}
 return (
 <>
@@ -24,7 +28,7 @@ return (
 
 <h1 className="text-slate-400 text-9xl translate-y-[50%] translate-x-[25%]"> Portfolio </h1>
 	<button onClick={handleClick} className="text-white text-6xl translate-y-[1230%] translate-x-[1350%]"> V </button>
-	{isVisible && (
+	{isVisible === 1 && (
 		<>
 		<h1 className="text-white text-2xl translate-y-[800%] translate-x-[8%] "> Project 1 Name </h1>
 		<p className="text-white translate-y-[1200%] translate-x-[8%] "> Project Description </p>
@@ -40,7 +44,7 @@ return (
 		<img src={placeholder} className="relative img3 scale-[40%] my-[0.5%] mx-[50%] hover:opacity-50" />
 		</>
 	)}
-	{isSecondVisible && (
+	{isVisible === 2 && (
 		<>
 		<h1 className="text-white text-2xl translate-y-[800%] translate-x-[8%] "> Project 4 Name </h1>
 		<p className="text-white translate-y-[1200%] translate-x-[8%] "> Project Description </p>
@@ -56,6 +60,23 @@ return (
 		<img src={placeholder} className="relative img3 scale-[40%] my-[0.5%] mx-[50%] hover:opacity-50" />
 		</>
 	)}
+	{isVisible === 3 && (
+		                <>
+		                                                <h1 className="text-white text-2xl translate-y-[800%] translate-x-[8%] "> Project 7 Name </h1>
+		                                                <p className="text-white translate-y-[1200%] translate-x-[8%] "> Project Description </p>
+		                                                <button className="btn1 text-white border border-slate-400 rounded translate-y-[1630%] translate-x-[200%] scale-[200%] relative z-20 opacity-100 ">See More </button>
+		                                                <img src={placeholder} className="relative img1 my-[-15%] scale-[40%] translate-x-[-28%] hover:opacity-50 " />
+		                                                <h1 className="absolute text-white text-2xl translate-y-[-1250%] translate-x-[270%]"> Project 8 Name </h1>
+		                                                <p className="absolute text-white translate-y-[-1380%] translate-x-[312%]"> Project Description </p>
+		                                                <button className="absolute btn2 text-white border border-slate-400 rounded scale-[200%] translate-y-[-700%] translate-x-[780%] z-20"> See More </button>
+		                                                <img src={placeholder} className="relative img2 scale-[40%] my-[-68.5%] translate-x-[23%] hover:opacity-50" />
+		                                                <h1 className="absolute text-white text-2xl my-[26.5%] translate-x-[485%]"> Project 9 Name </h1>
+		                                                <p className="absolute text-white my-[31%] translate-x-[563%]"> Project Description </p>
+		                                                <button className="absolute btn3 text-white border border-slate-400 rounded scale-[200%] z-20 my-[41%] translate-x-[1350%] "> See More </button>
+		                                                <img src={placeholder} className="relative img3 scale-[40%] my-[0.5%] mx-[50%] hover:opacity-50" />
+		                                                </>
+
+		        )}
 	</Modal>
 	</div>
 </>)}
