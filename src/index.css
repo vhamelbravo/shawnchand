@@ -31,3 +31,136 @@ opacity: 0.5;
 		      top: 50%;
 		        }
 		}
+@media (max-width: 480px) {
+	.header {
+	font-size: 4rem;
+        margin-left: -100px;}
+	.profile {
+	position: absolute;
+	margin-left: -313px;
+	margin-top: -700px;
+	transform: scale(.35);
+}
+.intro-text {
+font-size: 1.3rem;
+}
+.facts-text {
+font-size: 1.3rem;}
+.profile-img {
+margin-top: -30px;
+}
+.navbar {
+display: none;
+position: absolute;
+border: none;
+margin-top: -600px;
+margin-left: 170px;
+height: 250px;
+background: url("./assets/background.png");
+}
+.home-link {
+background: url("./assets/background.png");
+width: 300px;
+}
+.navbar-title {
+display: none;
+}
+.navbar-mobile-button {
+display: block;
+position: absolute;
+margin-top: -730px;
+margin-left: 280px;
+}
+.navbar-mobile-checkbox {
+display: block;
+position: absolute;
+margin-top: -700px;
+margin-left: 300px;
+z-index: 30;
+opacity: 0;
+}
+.navbar-mobile-checkbox:hover {
+cursor: pointer;
+}
+.navbar-mobile-checkbox:checked ~ .navbar  {
+	display: block;
+}
+.instagram {
+position: absolute;
+height: 320px;
+width: 320px;
+}
+.discord {
+position: absolute;
+margin-left: -20px;
+margin-top: -5px;
+height: 200px;
+width: 200px;
+}
+.linkedin {
+position: absolute;
+height: 320px;
+width: 320px;
+margin-top: -30px;
+margin-left: -85px;
+}
+.reddit {
+height: 320px;
+width: 320px;
+position: absolute;
+margin-top: -30px;
+}
+.twitter {
+position: absolute;
+height: 320px;
+width: 320px;
+margin-left: -10px;
+}
+.tiktok {
+position: absolute;
+height: 320px;
+width: 320px;
+margin-top: -25px;
+margin-left: -65px;
+}
+.portfolio-preview {
+position: absolute;
+transform: scale(.4);
+margin-left: -400px;
+margin-top: -320px;
+}
+.blog-preview {
+transform: scale(.4);
+margin-left: -390px;
+margin-top: -500px;
+border: none;
+}
+.blog-preview-title {
+max-width: 650px;
+}
+.blog-link {
+opacity: 0;
+pointer-events: none;
+display: none;
+}
+.portfolio-link {
+opacity: 0;
+pointer-events: none;
+display: none;
+}
+.about-link {
+position: absolute;
+margin-top: -10px;
+}
+.home-link {
+position: absolute;
+margin-top: -50px;
+}
+.footer {
+font-size: 7px;
+margin-left: -140px;
+}
+
+	}
+
+

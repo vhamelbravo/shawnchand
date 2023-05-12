@@ -18,7 +18,7 @@ const [isVisible, setIsVisible] = useState(1)
 		}
 return (
 <>
-<div className="border w-[83rem] mx-[17.5%] translate-y-[-250%]">
+<div className="portfolio-preview border w-[83rem] mx-[17.5%] translate-y-[-250%]">
 <h1 className="text-cyan-500 text-7xl mx-[1%]"> Portfolio </h1>
 <p className="text-white text-3xl mx-[2%]"> <a href="#" className="hover:underline text-cyan-500 text-3xl"> Project </a> - Description of Project </p>
 <p className="text-white text-3xl mx-[2%]"> <a href="#" className="hover:underline text-cyan-500 text-3xl"> Project </a> - Description of Project </p>
