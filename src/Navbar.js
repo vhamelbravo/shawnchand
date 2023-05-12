@@ -30,7 +30,6 @@ const [isVisible, setIsVisible] = useState(1)
 		  
 	
 	
-	
 
 return (
 <>
@@ -101,12 +100,12 @@ return (
 	</Modal>
 	<li> <Link to="/services"> <p className="text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> -Services  </p> </Link> </li>
 	<li> <a href="mailto:shawn@shawnjc.ca"> <p className="text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> -Contact  </p> </a> </li>
-	<a className="" href="https://instagram.com"> <img src={insta} className="h-fit absolute scale-[10%] translate-y-[-35%] translate-x-[-35%]" /> </a>
-	<a className="" href="https://twitter.com"> <img src={twitter} className="h-fit absolute scale-[20%] translate-y-[-20%] translate-x-[5%]" /> </a>
-	<a className=""  href="https://discord.com/users/150504671033819136"> <img src={discord} className="h-fit scale-[26%] my-[-5%] translate-x-[33%]" /> </a>
-	<a className="" href="https://linkedin.com/in/shawnjasnalchand"> <img src={linkedin} className="h-fit absolute scale-[10%] my-[-13.5%] mx-[-9.5%] " /> </a>
+	<a className="" href="https://instagram.com"> <img src={insta} id="insta" className="h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-36%]" /> </a>
+	<a className="" href="https://twitter.com"> <img src={twitter} id="twitter" className="h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-16%]" /> </a>
+	<a className=""  href="https://discord.com/users/150504671033819136"> <img src={discord} className="h-fit scale-[18%] my-[-25%] translate-x-[33%]" /> </a>
+	<a className="" href="https://linkedin.com/in/shawnjasnalchand"> <img src={linkedin} className="h-fit absolute scale-[11%] my-[-13.5%] mx-[-9.5%] " /> </a>
 	<a className=""  href="https://reddit.com"> <img src={reddit} className="h-fit absolute scale-[11%] my-[-13.5%] mx-[-4.5%] " /> </a>
-	<a className="" href="https://tiktok.com"> <img src={tiktok} className="h-fit absolute scale-[6%] my-[-25%] mx-[-12%] " /> </a>
+	<a className="" href="https://tiktok.com"> <img src={tiktok} className="h-fit absolute scale-[11.5%] my-[-13.1%] mx-[.5%] " /> </a>
 	</ul>
 	</div>
 </>

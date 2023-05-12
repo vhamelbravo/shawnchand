@@ -21,3 +21,13 @@ opacity: 0.5;
 .btn3:hover + .img3 {
 opacity: 0.5;
 }
+#insta {
+	  @supports (-webkit-appearance: none) {
+		      top: 50%;
+		        }
+		}
+#twitter {
+	  @supports (-webkit-appearance: none) {
+		      top: 50%;
+		        }
+		}
