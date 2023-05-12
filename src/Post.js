@@ -30,16 +30,16 @@ function Post() {
 	return (
 		<>
 		<div className="my-[29%]"> </div>
-		<h1 className="text-slate-400 text-9xl translate-y-[-430%] mx-[18%] min-[500px] max-[500px] truncate  "> {post.fields.title} </h1>
+		<h1 className="text-slate-400 text-8xl translate-y-[-550%] mx-auto min-w-[500px] max-w-[900px] truncate  "> {post.fields.title} </h1>
 		<div className="translate-x-[10%]">
 		<Navbar  />
 		</div>
 
-		<h1 className="relative text-white text-7xl translate-y-[-100%] translate-x-[120%]  w-fit"> {post.fields.date} </h1> 
+		<h1 className="relative text-cyan-500 text-7xl translate-y-[-80%] translate-x-[120%]  w-fit"> {post.fields.date} </h1> 
 		{post.fields.content.content.map((contentBlock, index) => {
 			  if (contentBlock.nodeType === 'paragraph') {
 				      return (
-					            <div className="text-white max-w-7xl translate-x-[12%]" key={index}>
+					            <div className="text-cyan-500 max-w-7xl translate-x-[12%]" key={index}>
 					              {contentBlock.content.map((node, nodeIndex) => {
 							      console.log('Node Type:', node.nodeType);
 							                console.log('Node:', node);

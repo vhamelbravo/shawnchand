@@ -33,8 +33,8 @@ function BlogPage()  {
 		{blogPosts?.items?.map((post) => { 
 			return (
 				<section key={post.sys.id}>
-				 <Link to={`/blog/${post.sys.id}`} className="w-fit"> <h1 className="min-w-[500px} max-w-[500px] truncate  relative text-white text-6xl translate-y-[-100%] mx-[10%] hover:text-slate-400 w-fit truncate">{post.fields.title} </h1> </Link>
-					<p className="text-white text-3xl translate-y-[-300%] translate-x-[350%] w-fit"> {post.fields.date} </p>
+				 <Link to={`/blog/${post.sys.id}`} className="w-fit"> <h1 className="min-w-[500px] max-w-[500px] relative text-cyan-500 text-5xl translate-y-[-100%] mx-[10%] hover:text-slate-400 w-fit truncate">{post.fields.title} </h1> </Link>
+					<p className="text-cyan-500 text-3xl translate-y-[-250%] translate-x-[350%] w-fit"> {post.fields.date} </p>
 					</section>
 					)
 				}

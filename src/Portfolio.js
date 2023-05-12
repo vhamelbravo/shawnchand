@@ -18,12 +18,12 @@ const [isVisible, setIsVisible] = useState(1)
 		}
 return (
 <>
-<div className="border w-[78rem] mx-[22%] translate-y-[-250%]">
-<h1 className="text-slate-400 text-7xl mx-[30%]"> Portfolio </h1>
-<p className="text-white text-3xl mx-[2%]"> <a href="#" className="hover:underline text-slate-400 text-3xl"> Project </a> - Description of Project </p>
-<p className="text-white text-3xl mx-[2%]"> <a href="#" className="hover:underline text-slate-400 text-3xl"> Project </a> - Description of Project </p>
-<p className="text-white text-3xl mx-[2%]"> <a href="#" className="hover:underline text-slate-400 text-3xl"> Project </a> - Description of Project </p>
-<p className="text-white text-3xl mx-[2%]"> <button onClick={toggle} className="text-slate-400 text-xl"> Read More </button> </p>
+<div className="border w-[83rem] mx-[17.5%] translate-y-[-250%]">
+<h1 className="text-slate-400 text-7xl mx-[1%]"> Portfolio </h1>
+<p className="text-cyan-500 text-3xl mx-[2%]"> <a href="#" className="hover:underline text-slate-400 text-3xl"> Project </a> - Description of Project </p>
+<p className="text-cyan-500 text-3xl mx-[2%]"> <a href="#" className="hover:underline text-slate-400 text-3xl"> Project </a> - Description of Project </p>
+<p className="text-cyan-500 text-3xl mx-[2%]"> <a href="#" className="hover:underline text-slate-400 text-3xl"> Project </a> - Description of Project </p>
+<p className="text-cyan-500 text-3xl mx-[2%]"> <button onClick={toggle} className="text-slate-400 text-xl"> Read More </button> </p>
 <Modal active={active} className="modal" toggle={toggle}>
 
 <h1 className="text-slate-400 text-9xl translate-y-[50%] translate-x-[25%]"> Portfolio </h1>
