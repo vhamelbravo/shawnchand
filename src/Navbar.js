@@ -34,15 +34,15 @@ const [isVisible, setIsVisible] = useState(1)
 return (
 <>
 	<div className="grid border-2 border-slate-400 w-[20rem] mx-[70%] my-[-25%] h-[30.5rem]">
-	<h1 className="text-cyan-500 text-3xl translate-x-[2%] translate-y-[30%] font-bold"> Navigation </h1>
+	<h1 className="text-white text-3xl translate-x-[2%] translate-y-[30%] font-bold"> Navigation </h1>
 	<ul>
-	<li> <Link to="/"> <p className="text-cyan-500 text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -Home  </p> </Link> </li>
-	<li> <Link to="/about"> <p className="text-cyan-500 text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -About  </p> </Link> </li>
-	<li> <Link to="/blog"> <p className="text-cyan-500 text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -Blog  </p> </Link> </li>
-	<li> <button onClick={toggle}> <p className="text-cyan-500 text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -Portfolio  </p> </button> </li>
+	<li> <Link to="/"> <p className="text-white text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -Home  </p> </Link> </li>
+	<li> <Link to="/about"> <p className="text-white text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -About  </p> </Link> </li>
+	<li> <Link to="/blog"> <p className="text-white text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -Blog  </p> </Link> </li>
+	<li> <button onClick={toggle}> <p className="text-white text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -Portfolio  </p> </button> </li>
 	<Modal className="modal " active={active} toggle={toggle}>
-	<h1 className="text-slate-400 text-9xl translate-y-[50%] translate-x-[25%] "> Portfolio </h1>
-	<button onClick={handleClick} className="text-cyan text-6xl translate-y-[1230%] translate-x-[1350%]"> V </button>
+	<h1 className="text-cyan-500 text-9xl translate-y-[50%] translate-x-[25%] "> Portfolio </h1>
+	<button onClick={handleClick} className="text-white  text-6xl translate-y-[1230%] translate-x-[1350%]"> V </button>
 	{isVisible === 1 && ( 
 		<>
 	<h1 className="text-white text-2xl translate-y-[800%] translate-x-[8%] "> Project 1 Name </h1>
@@ -98,8 +98,8 @@ return (
 
 
 	</Modal>
-	<li> <Link to="/services"> <p className="text-cyan-500 text-3xl translate-y-[50%] translate-x-[1%] hover:underline"> -Services  </p> </Link> </li>
-	<li> <a href="mailto:shawn@shawnjc.ca"> <p className="text-cyan-500 text-3xl translate-y-[50%] translate-x-[1%] hover:underline"> -Contact  </p> </a> </li>
+	<li> <Link to="/services"> <p className="text-white 500 text-3xl translate-y-[50%] translate-x-[1%] hover:underline"> -Services  </p> </Link> </li>
+	<li> <a href="mailto:shawn@shawnjc.ca"> <p className="text-white text-3xl translate-y-[50%] translate-x-[1%] hover:underline"> -Contact  </p> </a> </li>
 	<a className="" href="https://instagram.com"> <img src={insta} id="insta" className="h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-36%]" /> </a>
 	<a className="" href="https://twitter.com"> <img src={twitter} id="twitter" className="h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-16%]" /> </a>
 	<a className=""  href="https://discord.com/users/150504671033819136"> <img src={discord} className="h-fit scale-[18%] my-[-25%] translate-x-[33%]" /> </a>
