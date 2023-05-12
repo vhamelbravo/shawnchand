@@ -12,7 +12,7 @@ return (
 	<ul>
 	<li> <p className="text-white translate-y-[150%] translate-x-[1%]">- Proudly hailing from Canada.</p> </li>
 	<li> <p className="text-white translate-y-[150%] translate-x-[1%]">- I harbor a deep affection for adorable koalas.</p> </li>
-	<li> <p className="text-white translate-y-[70%] translate-x-[1%]">- The fall and winter months hold a special <br/> place in my heart.</p>
+	<li> <p className="text-white translate-y-[135%] translate-x-[1%]">- The fall and winter months hold a special  place in my heart.</p>
 	</li>
 	<li> <p className="text-white translate-y-[60%] translate-x-[1%]">- I'm grateful for a successful kidney transplant, which has brought happiness and good health to my life .</p> </li>
 
