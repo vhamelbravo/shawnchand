@@ -3,6 +3,7 @@ import {createClient} from 'contentful'
 import client from './client.js'
 import {Link} from 'react-router-dom'
 import {useParams} from 'react-router-dom'
+import './index.css'
 function Blog () {
 		const [blogPosts, setBlogPosts] = useState([])
 		useEffect(() => {
@@ -28,14 +29,14 @@ function Blog () {
 						return (
 										<section key={post.sys.id}>
 								<ul>
-								 <p className="blog-preview-title text-white text-3xl translate-x-[1%]"> <Link to={`blog/${post.sys.id}`} className="text-cyan-500  hover:underline"> {post.fields.title} </Link> - {post.fields.date} </p>   
+								 <p className="blog-preview-title text-white text-3xl translate-x-[1%]"> <Link to={`blog/${post.sys.id}`} className="blog-preview-link text-cyan-500  hover:underline"> {post.fields.title} </Link> - {post.fields.date} </p>   
 								</ul>
 
 										</section>
 						)
 					}
 					)}
-			  <p className="text-cyan-500 text-xl hover:underline translate-x-[2%] translate-y-[60%]"><Link to="/blog"> Read More </Link> </p>   
+			  <p className="blog-read-more text-cyan-500 text-xl hover:underline translate-x-[2%] translate-y-[60%]"><Link to="/blog"> Read More </Link> </p>   
 			</div>
 		</>
 			)

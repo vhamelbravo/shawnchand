@@ -30,8 +30,8 @@ function Post() {
 	return (
 		<>
 		<div className="my-[29%]"> </div>
-		<h1 className="text-cyan-500 text-8xl translate-y-[-550%] mx-auto min-w-[500px] max-w-[900px] truncate  "> {post.fields.title} </h1>
-		<div className="translate-x-[10%]">
+		<h1 className="post-title text-cyan-500 text-8xl translate-y-[-550%] mx-auto min-w-[500px] max-w-[900px] truncate  "> {post.fields.title} </h1>
+		<div className="navbar-post translate-x-[10%]">
 		<Navbar  />
 		</div>
 
@@ -39,7 +39,7 @@ function Post() {
 		{post.fields.content.content.map((contentBlock, index) => {
 			  if (contentBlock.nodeType === 'paragraph') {
 				      return (
-					            <div className="text-white max-w-7xl translate-x-[12%]" key={index}>
+					            <div className="post-content text-white max-w-7xl translate-x-[12%]" key={index}>
 					              {contentBlock.content.map((node, nodeIndex) => {
 							      console.log('Node Type:', node.nodeType);
 							                console.log('Node:', node);
@@ -76,7 +76,7 @@ function Post() {
 					        return null; // Ignore other node types or handle them accordingly
 					      }
 		})}
-		<div className="mt-[70%] translate-x-[3%]">
+		<div className="post-footer mt-[70%] translate-x-[3%]">
 		<Footer />
 		</div>
 		

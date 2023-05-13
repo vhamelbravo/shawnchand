@@ -104,12 +104,12 @@ return (
 	</Modal>
 	<li> <Link to="/services"> <p className="services-link text-white 500 text-3xl translate-y-[50%] translate-x-[1%] hover:underline"> -Services  </p> </Link> </li>
 	<li> <a href="mailto:shawn@shawnjc.ca"> <p className="contact text-white text-3xl translate-y-[50%] translate-x-[1%] hover:underline"> -Contact  </p> </a> </li>
-	<a className="instagram" href="https://instagram.com"> <img src={insta} id="insta" className="h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-36%]" /> </a>
-	<a className="twitter" href="https://twitter.com"> <img src={twitter} id="twitter" className="h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-16%]" /> </a>
-	<a className="discord"  href="https://discord.com/users/150504671033819136"> <img src={discord} className="h-fit scale-[18%] my-[-25%] translate-x-[33%]" /> </a>
-	<a className="linkedin" href="https://linkedin.com/in/shawnjasnalchand"> <img src={linkedin} className="h-fit absolute scale-[11%] my-[-13.5%] mx-[-9.5%] " /> </a>
-	<a className="reddit"  href="https://reddit.com"> <img src={reddit} className="h-fit absolute scale-[11%] my-[-13.5%] mx-[-4.3%] " /> </a>
-	<a className="tiktok" href="https://tiktok.com"> <img src={tiktok} className="h-fit absolute scale-[11.5%] my-[-13.1%] mx-[.5%] " /> </a>
+	<a href="https://instagram.com"> <img src={insta} id="insta" className="instagram h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-36%]" /> </a>
+	<a href="https://twitter.com"> <img src={twitter} id="twitter" className="twitter h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-16%]" /> </a>
+	<a href="https://discord.com/users/150504671033819136"> <img src={discord} className="discord h-fit scale-[18%] my-[-25%] translate-x-[33%]" /> </a>
+	<a href="https://linkedin.com/in/shawnjasnalchand"> <img src={linkedin} className="linkedin h-fit absolute scale-[11%] my-[-13.5%] mx-[-9.5%] " /> </a>
+	<a href="https://reddit.com"> <img src={reddit} className="reddit h-fit absolute scale-[11%] my-[-13.5%] mx-[-4.3%] " /> </a>
+	<a className="h-fit" href="https://tiktok.com"> <img src={tiktok} className="tiktok h-fit absolute scale-[11.5%] my-[-13.1%] mx-[.5%] " /> </a>
 	</ul>
 	</div>
 </>
