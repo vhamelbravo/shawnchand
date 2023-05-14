@@ -4,9 +4,9 @@ return (
 	<>
 	<div className="profile text-white profile border border-slate-400 w-[960px] pb-[11rem] mt-[-40%] translate-x-[35%] h-[480px] ">
 	<h1 className=" header-profile text-white text-4xl translate-x-[1%]"> Welcome to My Forest! </h1>
-	<p className="intro-text relative text-white translate-x-[23%] translate-y-[10%] "> Welcome to my creative corner! This website and blog <br/> page  are a delightful blend of various pixel art sites <br /> that have inspired me across the web. <br/>
+	<p className="intro-text relative text-white translate-x-[23%] translate-y-[10%] max-w-[780px] "> 
+	Welcome to my creative corner! Immerse yourself in a world where pixels come alive and art meets passion. With a love for gaming aesthetics and a deep understanding of the design and pop culture space, I offer a range of services that bring your creative visions to life. From art and digital photography to project management and coaching, coding to architectural and graphic design, and marketing, I infuse each project with a touch of pixel art and a gamer's spirit. Let's collaborate and turn your ideas into extraordinary realities. Contact me today!
 
-	As an avid art and design enthusiast, I draw inspiration <br/> from a multitude of styles. If youre curious to learn <br/> more about me and my artistic journey, be sure to visit <br/> the About section.
 </p>
 	<p className="facts text-3xl translate-y-[100%] translate-x-[1%]"> Here are some quick facts about me </p>
 	<ul>
@@ -17,7 +17,7 @@ return (
 	<li> <p className="facts-text facts-4 text-white translate-y-[60%] translate-x-[1%]">- I'm grateful for a successful kidney transplant, which has brought happiness and good health to my life .</p> </li>
 
 	</ul>
-	<img className="z-20 profile-img relative scale-[20%] translate-x-[-39%] translate-y-[-75%] " src={image} />
+	<img className="z-20 profile-img relative scale-[20%] translate-x-[-41%] translate-y-[-75%] " src={image} />
 	
 	
 	</div>

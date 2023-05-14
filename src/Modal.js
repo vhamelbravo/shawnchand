@@ -8,8 +8,8 @@ render () {
 	return (
 		<Portal className="h-[1000px]">
 		{active && (
-		<div className="h-[1000px] " style={styles.wrapper}>
-			<div className="w-[80%] h-[1000px]"  style={styles.window}>
+		<div className="portfolio-wrapper h-[1000px] " style={styles.wrapper}>
+			<div className="portfolio w-[80%] h-[1000px]"  style={styles.window}>
 			<button className="text-white mx-[2%] my-[2%] scale-[200%]" style={styles.closeBtn} onClick={toggle}> X </button>
 			<div className="children h-[1000px]"> {children} </div>
 			</div>
@@ -38,7 +38,6 @@ const styles = {
 	        borderRadius: 5,
 	        padding: 15,
 	        zIndex: 10,
-	        maxHeight: 1000.
 	},
 	closeBtn: {
 		position: 'absolute',
