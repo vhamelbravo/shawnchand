@@ -37,25 +37,27 @@ function Post() {
 
 		<h1 className="relative text-white text-7xl translate-y-[-80%] translate-x-[120%]  w-fit"> {post.fields.date} </h1> 
 		{post.fields.content.content.map((contentBlock, index) => {
-			  if (contentBlock.nodeType === 'paragraph') {
+			  if (contentBlock.nodeType === 'paragraph' || contentBlock.nodeType === 'embedded-asset-block') {
 				      return (
 					            <div className="post-content text-white max-w-7xl translate-x-[12%]" key={index}>
 					              {contentBlock.content.map((node, nodeIndex) => {
-							      console.log('Node Type:', node.nodeType);
+							                console.log('Node Type:', node.nodeType);
 							                console.log('Node:', node);
 							                if (node.nodeType === 'embedded-asset-block') {
-										const assetId = node.data.target.sys.id;
-										            const asset = post.includes.Asset.find(asset => asset.sys.id === assetId);
-										if (asset) {
-										            const imageUrl = asset.fields.file.url;
-										            console.log("The if statement is working as it should");
-										            return (
-												                  <div key={nodeIndex}>
-												                    <img src={`https:${imageUrl}`} alt="Embedded Asset" />
-												                  </div>
-												                );
-										          }
-									}else if (node.nodeType === 'hyperlink') {
+										            if (node.data?.target?.sys?.id && post.includes.Asset) {
+												                  const assetId = node.data.target.sys.id;
+												                  const asset = post.includes.Asset.find(asset => asset.sys.id === assetId);
+												                  if (asset && asset.fields?.file?.url) {
+															                  const imageUrl = asset.fields.content.content.url;
+															                  console.log("The if statement is working as it should");
+															                  return (
+																		                    <div key={nodeIndex}>
+																		                      <img src="https://images.ctfassets.net/2q66jr3wkfx6/5BZ4ZUeu9qktKrS94iwPai/7653a7a1a61369d82bd19d184ddd5b4a/person.png" alt="Embedded Asset" />
+																		                    </div>
+																		                  );
+															                }
+												                }
+										          } else if (node.nodeType === 'hyperlink') {
 												              const url = node.data.uri;
 												              return (
 														                    <a className="hover:underline" href={url} target="_blank" rel="noopener noreferrer" key={nodeIndex}>

@@ -37,7 +37,7 @@ return (
 		<h1 className="absolute text-white text-2xl translate-y-[-1250%] translate-x-[270%]"> Project 2 Name </h1>
 		<p className="absolute text-white translate-y-[-1380%] translate-x-[312%]"> Project Description </p>
 		<button className="absolute btn2 text-white border border-slate-400 rounded scale-[200%] translate-y-[-700%] translate-x-[780%] z-20"> See More </button>
-		<img src={placeholder} className="relative img2 scale-[40%] my-[-68.5%] translate-x-[23%] hover:opacity-50" />
+		<img src={placeholder} className="relative  img2 scale-[40%] my-[-68.5%] translate-x-[23%] hover:opacity-50" />
 		<h1 className="absolute text-white text-2xl my-[26.5%] translate-x-[485%]"> Project 3 Name </h1>
 		<p className="absolute text-white my-[31%] translate-x-[563%]"> Project Description </p>
 		<button className="absolute btn3 text-white border border-slate-400 rounded scale-[200%] z-20 my-[41%] translate-x-[1350%]"><p className="hover:underline"> See More </p> </button>
