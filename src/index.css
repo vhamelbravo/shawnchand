@@ -33,7 +33,8 @@ opacity: 0.5;
 		        }
 		}
 @media (max-width: 480px) {
-html {
+html,
+body{
 overflow-x: hidden;
 }
 	.header {
@@ -172,6 +173,7 @@ position: absolute;
 transform: scale(.48);
 margin-left: -345px;
 margin-top: -400px;
+border: none;
 }
 .portfolio-text {
 font-size: 33px;
