@@ -33,7 +33,6 @@ opacity: 0.5;
 		        }
 		}
 @media (max-width: 480px) {
-html,
 body{
 overflow-x: hidden;
 }
