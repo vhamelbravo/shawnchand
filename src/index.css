@@ -33,6 +33,9 @@ opacity: 0.5;
 		        }
 		}
 @media (max-width: 480px) {
+body {
+overflow-x: hidden;
+}
 	.header {
 	position: absolute;
 	font-size: 4rem;
@@ -57,6 +60,8 @@ font-size: 2rem;
 max-width: 750px;
 margin-top: 700px;
 margin-left: -50px;
+max-height: 600px;
+overflow-y: scroll;
 }
 .facts {
 position: absolute;
