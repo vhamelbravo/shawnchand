@@ -24,10 +24,10 @@ function Services () {
 		<h1 className="service-2-title text-cyan-500 text-xl my-[18%] mx-[68%]"> Project Management/Coaching </h1>
 		<p className="service-text max-w-[300px] text-white my-[-17%] translate-x-[270%]">
 		Unlock the full potential of your projects with expert project management and coaching services. I’m a professional, equipped with the knowledge and skills to ensure seamless execution, efficient resource allocation, and effective team collaboration. From initiating projects to monitoring progress and delivering successful outcomes, I’ll guide you through every stage of the project journey, empowering you to achieve your goals.</p>
-		<img src={coding} className="absolute service-3-img scale-[38%] mx-[-10%] my-[15%] " />
+		<img src={coding} className="absolute service-3-img scale-[38%] mx-[-10%] my-[23%] " />
 		<h1 className="service-3-title text-cyan-500 text-xl my-[30%] mx-[23%]"> Coding </h1>
 		<p className="service-text max-w-[300px] text-white my-[-28%] mx-[22%]">Harness the power of technology with my comprehensive coding services. Skilled coders bring ideas to life through clean and efficient code, tailored to your specific needs. Whether you require website development, software solutions, or mobile app creation, I combine technical expertise with a deep understanding of user experience to deliver innovative and functional solutions that elevate your digital presence. </p>
-		<img src={planning} className="service-4-img scale-[17.5%] my-[-52%] mx-[6%] absolute" />
+		<img src={planning} className="service-4-img scale-[17.5%] my-[-44%] mx-[6%] absolute" />
 		<h1 className="service-4-title text-cyan-500 text-xl my-[-12.5%] translate-x-[308%] absolute"> Architectural Design </h1>
 		<p className="service-text max-w-[300px] text-white my-[-8%] translate-x-[270%] absolute">Transform your vision into reality with my architectural design and visualization services. I specialize in creating spaces that blend functionality, aesthetics, and sustainability. From concept development and 3D modeling to construction documentation, I bring expertise in designing residential, commercial, and institutional structures. Let me shape your surroundings and create harmonious spaces that leave a lasting impression.  </p>
 		<img src={design} className="absolute scale-[20%] mx-[-33%]" />
