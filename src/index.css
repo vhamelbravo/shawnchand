@@ -2,529 +2,561 @@
 @tailwind components;
 @tailwind utilities;
 .modal{
-overflow: hidden;
+	overflow: hidden;
 }
 html {
-font-family: 'silkscreen', cursive;
-background-image: url("./assets/background.png");
-background-size: cover;
-overflow-x: hidden;
--ms-overflow-style: hidden;
-cursor: url("./assets/mouse.png"), auto;
+	font-family: 'silkscreen', cursive;
+	background-image: url("./assets/background.png");
+	background-size: cover;
+	overflow-x: hidden;
+	-ms-overflow-style: hidden;
+	cursor: url("./assets/mouse.png"), auto;
 }
 
 .btn1:hover +  .img1 {
-opacity: 0.5;
+	opacity: 0.5;
 }
 .btn2:hover + .img2 {
-opacity: 0.5;
+	opacity: 0.5;
 }
 .btn3:hover + .img3 {
-opacity: 0.5;
+	opacity: 0.5;
 }
 #insta {
-	  @supports (-webkit-appearance: none) {
-		      top: 50%;
-		        }
-		}
-#twitter {
-	  @supports (-webkit-appearance: none) {
-		      top: 50%;
-		        }
-		}
-@media (max-width: 480px) {
-body{
-overflow-x: hidden;
-}
-	.header {
-	position: absolute;
-	font-size: 4rem;
-        margin-left: -100px;
+		  @supports (-webkit-appearance: none) {
+			  		      top: 50%;
+					      		        }
+										}
+										#twitter {
+												  @supports (-webkit-appearance: none) {
+													  		      top: 50%;
+															      		        }
+																				}
+																				@media (max-width: 480px) {
+																					body{
+																						overflow-x: hidden;
+																					}
+																						.header {
+																								position: absolute;
+																									font-size: 4rem;
+																									        margin-left: -100px;
 
-}
-.header-profile {
-position: absolute;
-margin-top: 650px;
-margin-left: 120px;
-font-size: 50px;
-}
-	.profile {
-	position: absolute;
-	margin-left: -290px;
-	margin-top: -650px;
-	transform: scale(.4);
-	border: none;
-}
-.intro-text {
-position: absolute;
-font-size: 2rem;
-max-width: 750px;
-margin-top: 700px;
-margin-left: -50px;
-max-height: 600px;
-overflow-y: scroll;
-}
-.facts {
-position: absolute;
-margin-top: 1400px;
-margin-left: 10px;
-font-size: 50px;
-}
-.facts-text {
-position: absolute;
-font-size: 2rem;
-margin-top: 1550px;
-}
-.facts-1 {
-margin-top: 1500px;
-}
-.facts-2 {
-margin-top:1630px;
-}
-.facts-3 {
-margin-top: -1600px;
-}
+																									}
+																									.header-profile {
+																										position: absolute;
+																										margin-top: 650px;
+																										margin-left: 120px;
+																										font-size: 50px;
+																									}
+																										.profile {
+																												position: absolute;
+																													margin-left: -290px;
+																														margin-top: -650px;
+																															transform: scale(.4);
+																																border: none;
+																															}
+																															.intro-text {
+																																position: absolute;
+																																font-size: 2rem;
+																																max-width: 750px;
+																																margin-top: 700px;
+																																margin-left: -50px;
+																																max-height: 600px;
+																																overflow-y: scroll;
+																															}
+																															.facts {
+																																position: absolute;
+																																margin-top: 1400px;
+																																margin-left: 10px;
+																																font-size: 50px;
+																															}
+																															.facts-text {
+																																position: absolute;
+																																font-size: 2rem;
+																																margin-top: 1550px;
+																															}
+																															.facts-1 {
+																																margin-top: 1500px;
+																															}
+																															.facts-2 {
+																																margin-top:1630px;
+																															}
+																															.facts-3 {
+																																margin-top: -1600px;
+																															}
+																															.profile-img {
+																																margin-top: -450px;
+																																margin-left: -65px;
+																																transform: scale(.8);
+																															}
+																															.navbar {
+																																display: none;
+																																position: absolute;
+																																border: none;
+																																margin-top: -600px;
+																																margin-left: -1px;
+																																height: 100%;
+																																width: 400px;
+																																background: url("./assets/background.png");
+																																z-index: 50;
+																															}
+																															.home-link {
+																																background: url("./assets/background.png");
+																																width: 400px;
+																																font-size: 80px;
+																															}
+																															.navbar-title {
+																																display: none;
+																															}
+																															.navbar-mobile-button {
+																																display: block;
+																																position: absolute;
+																																margin-top: -730px;
+																																margin-left: 280px;
+																															}
+																															.navbar-mobile-checkbox {
+																																display: block;
+																																position: absolute;
+																																margin-top: -700px;
+																																margin-left: 300px;
+																																z-index: 30;
+																																opacity: 0;
+																															}
+																															.navbar-mobile-checkbox:hover {
+																																cursor: pointer;
+																															}
+																															.navbar-mobile-checkbox:checked ~ .navbar  {
+																																	display: block;
+																																}
+																																.instagram {
+																																	position: absolute;
+																																	transform: scale(.2);
+																																	margin-top: -120px;
+																																	margin-left: -120px;
+																																}
+																																.discord {
+																																	position: absolute;
+																																	margin-left: -20px;
+																																	margin-top: -120px;
+																																	transform: scale(.2)
+																																}
+																																.linkedin {
+																																	position: absolute;
+																																	transform: scale(.2);
+																																	margin-top: -120px;
+																																	margin-left: 80px;
+																																}
+																																.reddit {
+																																	position: absolute;
+																																	transform: scale(.2);
+																																	margin-top: -20px;
+																																}
+																																.twitter {
+																																	position: absolute;
+																																	transform: scale(.2);
+																																	margin-left: -120px;
+																																	margin-top: -20px;
+																																}
+																																.tiktok {
+																																	position: absolute;
+																																	transform: scale(.2);
+																																	margin-top: -15px;
+																																	margin-left: 75px;
+																																}
+																																.tiktok-link {
+																																	height: 50px;
+																																	width: 50px;
+																																}
+																																.portfolio-preview {
+																																	position: absolute;
+																																	transform: scale(.48);
+																																	margin-left: -345px;
+																																	margin-top: -400px;
+																																	border: none;
+																																}
+																																.portfolio-text {
+																																	font-size: 33px;
+																																	margin: 10px;
+																																	margin-left: 1px;
+																																}
+																																.read-more-portfolio {
+																																	font-size: 40px;
+																																	margin-top: 5px;
+																																	margin-left: -20px;
+																																}
+																																.blog-preview {
+																																	transform: scale(.45);
+																																	margin-left: -350px;
+																																	margin-top: -40px;
+																																	border: none;
+																																}
+																																.blog-preview-title {
+																																	max-width: 480px;
+																																	margin-top: 230px;
+																																}
+																																.blog-link {
+																																	position: absolute;
+																																	margin-top: 50px;
+																																	font-size: 50px;
+																																	max-width: 400px ;
+																																	overflow: hidden;
+																																	text-overflow: ellipsis;
+																																	white-space: nowrap;
+																																}
+																																.blog-preview-link {
+																																	position: absolute;
+																																	font-size: 90px;
+																																	margin-top: -100px;
+																																	margin-left: -30px;
+																																	max-width: 1000px;
+																																	text-overflow: ellipsis;
+																																	white-space: nowrap;
+																																}
+																																.blog-read-more {
+																																	position: absolute;
+																																	font-size: 3rem;
+																																	margin-left: -5px;
+																																}
+																																.portfolio-link {
+																																	position: absolute;
+																																	margin-top: 25px;
+																																	font-size: 50px;
+																																	margin-top: 130px;
+																																}
+																																.services-link {
+																																	margin-top: 75px;
+																																	font-size: 50px;
+																																}
+																																.about-link {
+																																	position: absolute;
+																																	margin-top: 10px;
+																																	font-size: 50px;
+																																}
+																																.contact {
+																																	font-size: 50px;
+																																	margin-top: 80px;
+																																}
+																																.home-link {
+																																	position: absolute;
+																																	margin-top: -50px;
+																																	font-size: 50px;
+																																}
+																																.footer {
+																																	font-size: 7px;
+																																	margin-left: -140px;
+																																}
+																																.about-title {
+																																	margin-left: -160px;
+																																	font-size: 100px;
+																																}
+																																.navbar-about {
+																																	position: absolute;
+																																	margin-top: 350px;
+																																	background: url("./assets/background.png");
+																																	height: 500px;
+																																	z-index: 20;
+																																}
+																																.about-main {
+																																	transform: scale(.4);
+																																	margin-left: -300px;
+																																	margin-top: -150px;
+																																	font-size: 25.5px;
+																																}
+																																.about-1-title {
+																																	position: absolute;
+																																	margin-top: 400px;
+																																	margin-left: -60px;
+																																}
+																																.abouts {
+																																	transform: scale(.5);
+																																	border: none;
+																																}
+																																.abouts-title {
+																																	font-size: 40px;
+																																	max-width: 360px;
+																																}
+																																.abouts-text {
+																																	font-size: 18px;
+																																	max-width: 600px;
+																																}
+																																.about-1 {
+																																	position: absolute;
+																																	margin-left: -165px;
+																																	margin-top: 450px;
+																																}
+																																.about-2-title {
+																																	position: absolute;
+																																	margin-top: 1130px;
+																																	margin-left: -190px;
+																																}
+																																.about-2 {
+																																	position: absolute;
+																																	margin-top: 650px;
+																																	margin-left: -170px;
+																																}
+																																.about-3-title {
+																																	position: absolute;
+																																	margin-left: -30px;
+																																	margin-top: 20px;
+																																}
+																																.about-3 {
+																																	position: absolute;
+																																	margin-left: -170px;
+																																	margin-top: 880px;
+																																}
+																																.about-4-title { 
+																																	position: absolute;
+																																	margin-top: 2200px;
+																																	margin-left: -195px;
+																																}
+																																.about-4 {
+																																	margin-top: 520px;
+																																	margin-left: -170px;
+																																}
+																																.about-5-title {
+																																	margin-top: 910px;
+																																	margin-left: -10px;
+																																}
+																																.about-5 {
+																																	margin-top: -1000px;
+																																	margin-left: -170px;
+																																}
+																																.about-6-title {
+																																	margin-left: -180px;
+																																	margin-top: 1330px;
+																																}
+																																.about-6 {
+																																	margin-left: -170px;
+																																	margin-top: -1400px;
+																																	 }
+																																	 .blog-read-more {
+																																		 margin-left: -10px;
+																																	 }
+																																	 .blog-title {
+																																		 font-size: 50px;
+																																		 margin-top: 250px;
+																																		 margin-left: -50px;
+																																	 }
+																																	 .navbar-button-blog:checked ~ .navbar-blog {
+																																		 display: block;
+																																	 }
+																																	 .navbar-blog {
+																																		 position: absolute;
+																																		 margin-top: 450px;
+																																		 height: 500px;
+																																		 background: url("./assets/background.png");
+																																		 z-index: 20;
+																																	 }
+																																	 .footer-blog {
+																																		 margin-top: 800px;
+																																	 }
+																																	 .blog-page-title {
+																																		 font-size: 40px;
+																																		 margin-left: 3px;
+																																	 }
+																																	 .services-title {
+																																		 font-size: 50px;
+																																		 margin-top: -70px;
+																																		 margin-left: 10px;
+																																	 }
+																																	 .post-title {
+																																		 font-size: 3rem;
+																																		 margin-top: 300px;
+																																		 margin-left: 10px;
+																																	 }
+																																	 .post-content {
+																																		 margin-top: -250px; 
+																																		 margin-left: -20px;
+																																		 max-width: 350px;
+																																	 }
+																																	 .post-footer {
+																																		 margin-top: 1500px;}
+																																		 .navbar-post {
+																																			 position: absolute;
+																																			 margin-top: 450px;
+																																			 background: url("./assets/background.png");
+																																			 height: 500px;
+																																			 z-index: 20;
+																																		 }
+																																		 .navbar-services {
+																																			 position: absolute;
+																																			 margin-top: 650px;
+																																			 background: url("./assets/background.png");
+																																			 height: 500px;
+																																			 z-index: 20;
+
+																																		 }
+																																		 .service-text {
+																																			 display: none;
+																																		 }
+																																		 .service-1-img {
+																																			 position: absolute;
+																																			 margin-top: -400px;
+																																		 }
+																																		 .service-1-title {
+																																			 position: absolute;
+																																			 margin-top: 100px;
+																																			 margin-left: -250px;
+																																		 }
+																																		 .service-2-img {
+																																			 position: absolute;
+																																			 margin-left: 10px;
+																																			 margin-top: 155px;
+																																		 }
+																																		 .service-2-title {
+																																			 position: absolute;
+																																			 margin-left: 10px;
+																																			 margin-top: 340px;
+																																			 max-width: 300px;}
+																																			 .services-container {
+																																				 border: none;
+																																			 }
+																																			 .service-3-img {
+																																				 margin-top: 250px;
+																																			 }
+																																			 .service-3-title {
+																																				 position: absolute;
+																																				 margin-top: 590px;
+																																				 margin-left: 60px;
+																																			 }
+																																			 .service-4-img {
+																																				 margin-left: -500px;
+																																				 margin-top: 150px;
+																																			 }
+																																			 .service-4-title {
+																																				 margin-top: 770px;
+																																				 margin-left: -840px;
+																																			 }
+																																			 .service-5-title {
+																																				 margin-top: 600px;
+																																				 margin-left: -350px;
+																																			 }
+																																			 .service-6-title {
+																																				 position: absolute;
+																																				 margin-left: -100px;
+																																				 margin-top: 700px;
+																																			 }
+																																			 .services-footer {
+																																				 position: absolute;
+																																				 margin-top: 30px;
+																																				 margin-left: 40px;
+																																			 }
+																																			 .portfolio-wrapper {
+																																				 z-index: 100;
+																																			 }
+																																			 .portfolio {
+																																				 width: 350px;
+																																				 margin-top: 500px;
+																																				 height: 1500px;
+																																			 }
+																																			 .portfolio-title {
+																																				 position: absolute;
+																																				 font-size: 50px;
+																																				 margin-left: -70px;
+																																			 }
+																																			 .project-img {
+																																				 position: absolute;
+																																				 transform: scale(.8);
+																																			 }
+																																			 .img1 {
+																																				 position: absolute;
+																																				 margin-top: -30px;
+																																				 margin-left: -10px;
+																																				 pointer-events: none;
+																																			 }
+																																			 .img2 {
+																																				 position: absolute;
+																																				 margin-top: 30px;
+																																				 pointer-events: none;
+
+																																			 }
+																																			 .project-img-3 {
+																																				 position: absolute;
+																																				 margin-top: 900px;
+																																				 margin-left: -10px;
+																																				 pointer-events: none;
+																																			 }
+																																			 .project-text {
+																																				 position: absolute;
+																																				 font-size: 20px;
+																																				 max-width: 50px;
+																																			 }
+																																			 .project-text-1 {
+																																				 margin-top: -450px;
+																																				 margin-left: 85px;
+																																			 }
+																																			 .project-subtext {
+																																				 opacity: 0;
+																																			 }
+																																			 .btn1 {
+																																				 position: absolute;
+																																				 margin-top: 400px;
+																																				 margin-left: 100px;
+																																				 transform: scale(1.5)
+																																			 }
+																																			 .project-img-2 {
+																																				 margin-top: 450px;
+																																				 margin-left: -15px;
+																																			 }
+																																			 .project-text-2 {
+																																				 margin-top: 1970px;
+																																				 margin-left: -50px;
+																																			 }
+																																			 .project-text-3 {
+																																				 margin-top: 1230px;
+																																				 margin-left: -165px;
+																																			 }
+																																			 .btn2 {
+																																				 	margin-top: 870px;
+																																						margin-left: 100px;
+																																							transform: scale(1.5);
+																																								
+																																						}
+																																						.btn3 {
+																																								position: absolute;
+																																									margin-top: 1350px;
+																																										margin-left: 100px;
+																																											transform: scale(1.5);
+																																										}
+																																										.portfolio-button-next {
+																																												margin-left: -3000px;
+
+																																											}
+
+
+
+																																												}
+@media (height: 640px) {
 .profile-img {
-margin-top: -450px;
-margin-left: -65px;
-transform: scale(.8);
+margin-top: -230px;
 }
 .navbar {
-display: none;
-position: absolute;
-border: none;
-margin-top: -600px;
-margin-left: -1px;
-height: 100%;
-width: 400px;
-background: url("./assets/background.png");
-z-index: 50;
-}
-.home-link {
-background: url("./assets/background.png");
-width: 400px;
-font-size: 80px;
-}
-.navbar-title {
-display: none;
+margin-top: -480px;
 }
 .navbar-mobile-button {
-display: block;
-position: absolute;
-margin-top: -730px;
-margin-left: 280px;
+margin-top: -600px ;
 }
 .navbar-mobile-checkbox {
-display: block;
-position: absolute;
-margin-top: -700px;
-margin-left: 300px;
-z-index: 30;
+transform: scale(5);
 opacity: 0;
-}
-.navbar-mobile-checkbox:hover {
-cursor: pointer;
-}
-.navbar-mobile-checkbox:checked ~ .navbar  {
-	display: block;
-}
-.instagram {
-position: absolute;
-transform: scale(.2);
-margin-top: -120px;
-margin-left: -120px;
-}
-.discord {
-position: absolute;
-margin-left: -20px;
-margin-top: -120px;
-transform: scale(.2)
-}
-.linkedin {
-position: absolute;
-transform: scale(.2);
-margin-top: -120px;
-margin-left: 80px;
-}
-.reddit {
-position: absolute;
-transform: scale(.2);
-margin-top: -20px;
-}
-.twitter {
-position: absolute;
-transform: scale(.2);
-margin-left: -120px;
-margin-top: -20px;
-}
-.tiktok {
-position: absolute;
-transform: scale(.2);
-margin-top: -15px;
-margin-left: 75px;
-}
-.tiktok-link {
-height: 50px;
-width: 50px;
-}
-.portfolio-preview {
-position: absolute;
-transform: scale(.48);
-margin-left: -345px;
-margin-top: -400px;
-border: none;
-}
-.portfolio-text {
-font-size: 33px;
-margin: 10px;
-margin-left: 1px;
-}
-.read-more-portfolio {
-font-size: 40px;
-margin-top: 5px;
-margin-left: -20px;
-}
-.blog-preview {
-transform: scale(.45);
-margin-left: -350px;
-margin-top: -40px;
-border: none;
-}
-.blog-preview-title {
-max-width: 480px;
-margin-top: 230px;
-}
-.blog-link {
-position: absolute;
-margin-top: 50px;
-font-size: 50px;
-max-width: 400px ;
-overflow: hidden;
-text-overflow: ellipsis;
-white-space: nowrap;
-}
-.blog-preview-link {
-position: absolute;
-font-size: 90px;
-margin-top: -100px;
-margin-left: -30px;
-max-width: 1000px;
-text-overflow: ellipsis;
-white-space: nowrap;
-}
-.blog-read-more {
-position: absolute;
-font-size: 3rem;
-margin-left: -5px;
-}
-.portfolio-link {
-position: absolute;
-margin-top: 25px;
-font-size: 50px;
-margin-top: 130px;
-}
-.services-link {
-margin-top: 75px;
-font-size: 50px;
-}
-.about-link {
-position: absolute;
-margin-top: 10px;
-font-size: 50px;
-}
-.contact {
-font-size: 50px;
-margin-top: 80px;
-}
-.home-link {
-position: absolute;
-margin-top: -50px;
-font-size: 50px;
-}
-.footer {
-font-size: 7px;
-margin-left: -140px;
-}
-.about-title {
-margin-left: -160px;
-font-size: 100px;
+margin-top: -560px;
 }
 .navbar-about {
-position: absolute;
-margin-top: 350px;
-background: url("./assets/background.png");
-height: 500px;
-z-index: 20;
+top: -130px;
 }
-.about-main {
-transform: scale(.4);
-margin-left: -300px;
-margin-top: -150px;
-font-size: 25.5px;
-}
-.about-1-title {
-position: absolute;
-margin-top: 400px;
-margin-left: -60px;
-}
-.abouts {
-transform: scale(.5);
-border: none;
-}
-.abouts-title {
-font-size: 40px;
-max-width: 360px;
-}
-.abouts-text {
-font-size: 18px;
-max-width: 600px;
-}
-.about-1 {
-position: absolute;
-margin-left: -165px;
-margin-top: 450px;
-}
-.about-2-title {
-position: absolute;
-margin-top: 1130px;
-margin-left: -190px;
-}
-.about-2 {
-position: absolute;
-margin-top: 650px;
-margin-left: -170px;
-}
-.about-3-title {
-position: absolute;
-margin-left: -30px;
-margin-top: 20px;
-}
-.about-3 {
-position: absolute;
-margin-left: -170px;
-margin-top: 880px;
-}
-.about-4-title { 
-position: absolute;
-margin-top: 2200px;
-margin-left: -195px;
-}
-.about-4 {
-margin-top: 520px;
-margin-left: -170px;
-}
-.about-5-title {
-margin-top: 910px;
-margin-left: -10px;
-}
-.about-5 {
-margin-top: -1000px;
-margin-left: -170px;
-}
-.about-6-title {
-margin-left: -180px;
-margin-top: 1330px;
-}
-.about-6 {
-margin-left: -170px;
-margin-top: -1400px;
- }
-.blog-read-more {
-margin-left: -10px;
-}
-.blog-title {
-font-size: 50px;
-margin-top: 250px;
-margin-left: -50px;
-}
-.navbar-button-blog:checked ~ .navbar-blog {
-display: block;
+.navbar-post {
+top: 250px;
 }
 .navbar-blog {
-position: absolute;
-margin-top: 450px;
-height: 500px;
-background: url("./assets/background.png");
-z-index: 20;
-}
-.footer-blog {
-margin-top: 800px;
-}
-.blog-page-title {
-font-size: 40px;
-margin-left: 3px;
-}
-.services-title {
-font-size: 50px;
-margin-top: -70px;
-margin-left: 10px;
-}
-.post-title {
-font-size: 3rem;
-margin-top: 300px;
-margin-left: 10px;
-}
-.post-content {
-margin-top: -250px; 
-margin-left: -20px;
-max-width: 350px;
-}
-.post-footer {
-margin-top: 1500px;}
-.navbar-post {
-position: absolute;
-margin-top: 450px;
-background: url("./assets/background.png");
-height: 500px;
-z-index: 20;
+top: 180px;
 }
 .navbar-services {
-position: absolute;
-margin-top: 650px;
-background: url("./assets/background.png");
-height: 500px;
-z-index: 20;
-
+top: -10px;
 }
-.service-text {
-display: none;
-}
-.service-1-img {
-position: absolute;
-margin-top: -400px;
-}
-.service-1-title {
-position: absolute;
-margin-top: 100px;
-margin-left: -250px;
-}
-.service-2-img {
-position: absolute;
-margin-left: 10px;
-margin-top: 155px;
-}
-.service-2-title {
-position: absolute;
-margin-left: 10px;
-margin-top: 340px;
-max-width: 300px;}
-.services-container {
-border: none;
-}
-.service-3-img {
-margin-top: 250px;
-}
-.service-3-title {
-position: absolute;
-margin-top: 590px;
-margin-left: 60px;
-}
-.service-4-img {
-margin-left: -500px;
-margin-top: 150px;
-}
-.service-4-title {
-margin-top: 770px;
-margin-left: -840px;
-}
-.service-5-title {
-margin-top: 600px;
-margin-left: -350px;
-}
-.service-6-title {
-position: absolute;
-margin-left: -100px;
-margin-top: 700px;
-}
-.services-footer {
-position: absolute;
-margin-top: 30px;
-margin-left: 40px;
-}
-.portfolio-wrapper {
-z-index: 100;
-}
-.portfolio {
-width: 350px;
-margin-top: 500px;
-height: 1500px;
-}
-.portfolio-title {
-position: absolute;
-font-size: 50px;
-margin-left: -70px;
-}
-.project-img {
-position: absolute;
-transform: scale(.8);
-}
-.img1 {
-position: absolute;
-margin-top: -30px;
-margin-left: -10px;
-pointer-events: none;
-}
-.img2 {
-position: absolute;
-margin-top: 30px;
-pointer-events: none;
-
-}
-.project-img-3 {
-position: absolute;
-margin-top: 900px;
-margin-left: -10px;
-pointer-events: none;
-}
-.project-text {
-position: absolute;
-font-size: 20px;
-max-width: 50px;
-}
-.project-text-1 {
-margin-top: -450px;
-margin-left: 85px;
-}
-.project-subtext {
-opacity: 0;
-}
-.btn1 {
-position: absolute;
-margin-top: 400px;
-margin-left: 100px;
-transform: scale(1.5)
-}
-.project-img-2 {
-margin-top: 450px;
-margin-left: -15px;
-}
-.project-text-2 {
-margin-top: 1970px;
-margin-left: -50px;
-}
-.project-text-3 {
-margin-top: 1230px;
-margin-left: -165px;
-}
-.btn2 {
-	margin-top: 870px;
-	margin-left: 100px;
-	transform: scale(1.5);
-	
-}
-.btn3 {
-	position: absolute;
-	margin-top: 1350px;
-	margin-left: 100px;
-	transform: scale(1.5);
-}
-.portfolio-button-next {
-	margin-left: -3000px;
-
 }
 
 
 
-	}
+
 
 
