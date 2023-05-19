@@ -197,6 +197,7 @@ html {
 	  .blog-link {
 		  position: absolute;
 		  margin-top: 50px;
+		  margin-left: 40px;
 		  font-size: 50px;
 		  max-width: 400px ;
 		  overflow: hidden;
@@ -220,21 +221,42 @@ html {
 	  .portfolio-link {
 		  position: absolute;
 		  margin-top: 25px;
+		  margin-left: -48px;
 		  font-size: 50px;
 		  margin-top: 130px;
 	  }
 	  .services-link {
 		  margin-top: 75px;
+		  margin-left: -30px;
 		  font-size: 50px;
 	  }
 	  .about-link {
 		  position: absolute;
 		  margin-top: 10px;
+		  margin-left: 30px;
 		  font-size: 50px;
 	  }
+	  .nav-about-img {
+	  margin-left: -50px;
+  }
+  .nav-blog-img {
+	  opacity: 0;
+	  width: 36px;
+	  height: 36px;
+	  margin-right: -50px;
+}
+  .nav-portfolio-img {
+  margin-left: -40px;
+}
+  .nav-contact-img {
+  position: absolute;
+  margin-left: -40px;
+} 
+
 	  .contact {
 		  font-size: 50px;
 		  margin-top: 80px;
+		  margin-left: -30px;
 	  }
 	  .home-link {
 		  position: absolute;
@@ -392,51 +414,61 @@ html {
 	  .service-1-img {
 		  position: absolute;
 		  margin-top: -400px;
+		  margin-left: -300px;
 	  }
 	  .service-1-title {
 		  position: absolute;
-		  margin-top: 100px;
+		  margin-top: 110px;
 		  margin-left: -250px;
 	  }
 	  .service-2-img {
 		  position: absolute;
-		  margin-left: 10px;
-		  margin-top: 155px;
+		  margin-left: 50px;
+		  margin-top: 195px;
 	  }
 	  .service-2-title {
 		  position: absolute;
 		  margin-left: 10px;
-		  margin-top: 340px;
+		  margin-top: 400px;
          	  max-width: 300px;
 	  }
 	  .services-container {
 		  border: none;
 	  }
 	  .service-3-img {
-		  margin-top: 250px;
+		  margin-top: 350px;
+		  margin-left: -100px;
 	  }
 	  .service-3-title {
 		  position: absolute;
-		  margin-top: 590px;
-		  margin-left: 60px;
+		  margin-top: 700px;
+		  margin-left: 100px;
 	  }
 	  .service-4-img {
-		  margin-left: -500px;
-		  margin-top: 150px;
+		  margin-left: -450px;
+		  margin-top: 300px;
 	  }
 	  .service-4-title {
-		  margin-top: 770px;
-		  margin-left: -840px;
+		  margin-top: 950px;
+		  margin-left: -820px;
 	  }
+	  .service-5-img {
+	  margin-top: 600px;
+	  margin-left: -360px;
+  }
 	  .service-5-title {
-		  margin-top: 600px;
-		  margin-left: -350px;
+		  margin-top: 850px;
+		  margin-left: -280px;
 	  }
+	  .service-6-img {
+		  margin-top: 500px;
+		  margin-left: -360px;
+  }
 	  .service-6-title {
 		  position: absolute;
-		  margin-left: -100px;
-		  margin-top: 700px;
-	  }
+		  margin-left: -40px;
+		  margin-top: 780px;
+	 }
 	  .services-footer {
 		  position: absolute;
 		  margin-top: 30px;
@@ -559,6 +591,40 @@ margin-left: 300px;
 margin-top: -820px;
 margin-left: 320px;
 transform: scale(2)
+}
+.navbar-about {
+margin-top: 500px;
+}
+.about-title {
+font-size: 50px;
+}
+.about-1-title {
+margin-top: 250px;
+}
+.about-1{
+margin-top: 300px;
+}
+.about-2-title {
+margin-top: 1000px;
+}
+.about-2 {
+margin-top: 550px;
+}
+.about-3-title {
+margin-top: -80px;
+}
+.about-3 {
+margin-top: 800px;
+}
+.about-4-title {
+margin-left: -200px;
+top: -100px;
+}
+.about-4 {
+margin-top: 590px;
+}
+.post-title{
+font-size: 500px;
 }
 }
 

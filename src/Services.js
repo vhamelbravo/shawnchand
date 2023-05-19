@@ -30,10 +30,10 @@ function Services () {
 		<img src={planning} className="service-4-img scale-[17.5%] my-[-44%] mx-[6%] absolute" />
 		<h1 className="service-4-title text-cyan-500 text-xl my-[-12.5%] translate-x-[308%] absolute"> Architectural Design </h1>
 		<p className="service-text max-w-[300px] text-white my-[-8%] translate-x-[270%] absolute">Transform your vision into reality with my architectural design and visualization services. I specialize in creating spaces that blend functionality, aesthetics, and sustainability. From concept development and 3D modeling to construction documentation, I bring expertise in designing residential, commercial, and institutional structures. Let me shape your surroundings and create harmonious spaces that leave a lasting impression.  </p>
-		<img src={design} className="absolute scale-[20%] mx-[-33%]" />
+		<img src={design} className="service-5-img absolute scale-[20%] mx-[-33%]" />
 		<h1 className="service-5-title text-cyan-500 text-xl translate-y-[1300%] translate-x-[22%]"> Graphic Design </h1>
 		<p className="service-text max-w-[300px] text-white translate-y-[85%] translate-x-[88%]">  Make a visual impact with my dynamic graphic design services. Talented designers possess a keen eye for detail and a flair for creativity. I excel in creating visually stunning designs that communicate your brand's essence, whether it's designing captivating logos, eye-catching marketing collateral, engaging social media graphics, or immersive user interfaces. Let me transform your ideas into visually compelling designs that captivate your audience.</p>
-		<img src={marketing} className="absolute scale-[20%] translate-y-[-47%] mx-[15%]" />
+		<img src={marketing} className="service-6-img absolute scale-[20%] translate-y-[-47%] mx-[15%]" />
 		<h1 className="service-6-title text-cyan-500 text-xl translate-y-[-430%] translate-x-[68%]"> Marketing </h1>
 		<p className="service-text text-white max-w-[300px] translate-x-[270%] translate-y-[-23%]">  Unlock the power of effective marketing strategies with my comprehensive marketing services. From market research and brand positioning to digital marketing campaigns and content creation, I'll help you build a strong brand presence and connect with your target audience. Marketing experts understand the latest trends and techniques to drive engagement, increase conversions, and boost your business's growth. </p>
 		
