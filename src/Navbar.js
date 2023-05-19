@@ -5,6 +5,11 @@ import discord from './assets/discord.png'
 import linkedin from './assets/linkedin.png'
 import reddit from './assets/reddit.png'
 import tiktok from './assets/tiktok.png'
+import navHome from './assets/navHome.png'
+import navAbout from './assets/navAbout.png'
+import navBlog from './assets/navBlog.png'
+import navPortfolio from './assets/navPortfolio.png'
+import navContact from './assets/navContact.png'
 import placeholder from './assets/placeholder.png'
 import Modal from './Modal'
 import {Link} from 'react-router-dom'
@@ -40,10 +45,11 @@ return (
 	<div className="navbar grid border-2 border-slate-400 w-[20rem] mx-[70%] my-[-25%] h-[30.5rem]">
 	<h1 className="navbar-title text-white text-3xl translate-x-[2%] translate-y-[30%] font-bold"> Navigation </h1>
 	<ul>
-	<li> <Link to="/"> <p className="home-link text-white text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -Home  </p> </Link> </li>
-	<li> <Link to="/about"> <p className="about-link text-white text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -About  </p> </Link> </li>
-	<li> <Link to="/blog"> <p className="blog-link text-white text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -Blog  </p> </Link> </li>
-	<li> <button onClick={toggle} className="portfolio-button"> <p className="portfolio-link text-white text-3xl translate-y-[50%] translate-x-[2%] hover:underline"> -Portfolio  </p> </button> </li>
+	<li> <Link to="/"> <p className="home-link text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navHome} className="nav-home-img w-[36px] mx-[-13%] absolute" /> Home  </p> </Link> </li>
+	<li> <Link to="/about"> <p className="about-link text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navAbout} className="nav-about-img w-[36px] mx-[-13%] absolute" />  About  </p> </Link> </li>
+	<li> <Link to="/blog"> <p className="blog-link text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navBlog} className="nav-blog-img w-[36px] mx-[-13%] absolute" />  Blog  </p> </Link> </li>
+	<li> <button onClick={toggle} className="portfolio-button"> <p className="portfolio-link text-white text-3xl translate-y-[50%] translate-x-[35%] hover:underline"> <img src={navPortfolio} className="nav-portfolio-img w-[36px] mx-[-23%] absolute" />  Portfolio  </p> </button> </li>
+
 	
 	<Modal className="modal" active={active} toggle={toggle}>
 	<h1 className="portfolio-title text-cyan-500 text-9xl translate-y-[50%] translate-x-[25%] "> Portfolio </h1>
@@ -105,8 +111,8 @@ return (
 
 	</Modal>
 	
-	<li> <Link to="/services"> <p className="services-link text-white 500 text-3xl translate-y-[50%] translate-x-[1%] hover:underline"> -Services  </p> </Link> </li>
-	<li> <a href="mailto:shawn@shawnjc.ca"> <p className="contact text-white text-3xl translate-y-[50%] translate-x-[1%] hover:underline"> -Contact  </p> </a> </li>
+	<li> <Link to="/services"> <p className="services-link text-white 500 text-3xl translate-y-[50%] translate-x-[20%] hover:underline">   Services  </p> </Link> </li>
+	<li> <a href="mailto:shawn@shawnjc.ca"> <p className="contact text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navContact} className="w-[36px] mx-[-13%] absolute" />  Contact  </p> </a> </li>
 	<a href="https://instagram.com"> <img src={insta} id="insta" className="instagram h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-36%]" /> </a>
 	<a href="https://twitter.com"> <img src={twitter} id="twitter" className="twitter h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-16%]" /> </a>
 	<a href="https://discord.com/users/150504671033819136"> <img src={discord} className="discord h-fit scale-[18%] my-[-25%] translate-x-[33%]" /> </a>
