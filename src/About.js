@@ -10,7 +10,7 @@ function About () {
 		<h1 className="about-title text-cyan-500 text-9xl translate-x-[30%] "> About Me </h1>
 			<div className="about-main overflow-y-scroll border border-slate-400 w-[60rem] mx-[18%] my-[3%] h-[500px]  ">
 			<img className="about-image scale-[30%] translate-y-[-35%] translate-x-[-30%]" src={image} />
-			<p className="text-white max-w-[500px] h-[360px] translate-y-[-250%] translate-x-[80%]"> Welcome to my creative sanctuary! I'm thrilled to share my journey as a multi-disciplinary artist and provide you with a glimpse into my world of pixel art, design, and passion. With a love for gaming aesthetics and a deep understanding of the art, design, and pop culture space, I'm dedicated to bringing your creative visions to life. Join me on this adventure as we explore the artistry, inspiration, and joy that pixels can evoke. 
+			<p className="about-text text-white max-w-[500px] h-[360px] translate-y-[-250%] translate-x-[80%]"> Welcome to my creative sanctuary! I'm thrilled to share my journey as a multi-disciplinary artist and provide you with a glimpse into my world of pixel art, design, and passion. With a love for gaming aesthetics and a deep understanding of the art, design, and pop culture space, I'm dedicated to bringing your creative visions to life. Join me on this adventure as we explore the artistry, inspiration, and joy that pixels can evoke. 
 
 		</p>	
 			</div>

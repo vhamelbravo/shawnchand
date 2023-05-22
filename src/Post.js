@@ -29,20 +29,20 @@ function Post() {
 		return (
 					<>
 					<div className="my-[29%]"> </div>
-					<h1 className="text-slate-400 text-9xl translate-y-[-430%] mx-[18%] min-[500px] max-[500px] truncate  "> {post.fields.title} </h1>
-					<div className="translate-x-[10%]">
+					<h1 className="post-title text-slate-400 text-9xl translate-y-[-430%] mx-[18%] min-[500px] max-[500px] truncate  "> {post.fields.title} </h1>
+					<div className="post-navbar ">
 					<Navbar  />
 					</div>
-					<h1 className="relative text-white text-7xl translate-y-[-100%] translate-x-[120%]  w-fit"> {post.fields.date} </h1> 
+					<h1 className="post-date relative text-white text-7xl translate-y-[-100%] translate-x-[120%]  w-fit"> {post.fields.date} </h1> 
 		                         {post.fields.content.content.map((contentBlock, index) => {
 						   if (contentBlock.nodeType === 'paragraph') {
 							       return (
-								             <div className="text-white max-w-7xl translate-x-[12%]" key={index}>
+								             <div className="text-white max-w-7xl translate-x-[12%] post" key={index}>
 								               {contentBlock.content.map((node, nodeIndex) => {
 										                 if (node.nodeType === 'hyperlink') {
 													             const url = node.data.uri;
 													             return (
-															                   <a className="hover:underline text-xl" href={url} target="_blank" rel="noopener noreferrer" key={nodeIndex}>
+															                   <a className="post-link hover:underline text-xl" href={url} target="_blank" rel="noopener noreferrer" key={nodeIndex}>
 															                     {node.content.map((text, textIndex) => (
 																		                       <span key={textIndex}>{text.value}</span>
 																		                     ))}
@@ -50,7 +50,7 @@ function Post() {
 															                 );
 													           } else if (node.nodeType === 'text') {
 															               return (
-																	                     <p className="text-white text-xl" key={nodeIndex}>
+																	                     <p className="post-text text-white text-xl" key={nodeIndex}>
 																	                       {node.value}
 																	                     </p>
 																	                   );
@@ -65,7 +65,7 @@ function Post() {
 								         return (
 										       <div className="text-white max-w-7xl translate-x-[12%]" key={index}>
 										         <div>
-										           <img src={`https:${imageUrl}`} alt="Embedded Asset" />
+										           <img src={`https:${imageUrl}`} className="img-post" alt="Embedded Asset" />
 										         </div>
 										       </div>
 										     );
@@ -74,7 +74,7 @@ function Post() {
 									         }
 					 })}
 
-					<div className="mt-[70%] translate-x-[3%]">
+					<div className="post-footer mt-[70%] translate-x-[3%]">
 					<Footer />
 					</div>
 					
