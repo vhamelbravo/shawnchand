@@ -1349,6 +1349,27 @@ margin-top: 1000px;
 transform: translateY(200px);
 }
 }
+@media (width: 396px) {
+.navbar-mobile-button {
+margin-top: -1150px;
+}
+.navbar {
+margin-top: -1050px;
+}
+.navbar-mobile-checkbox {
+margin-top: -1150px;
+}
+.navbar-blog {
+margin-top: 900px
+}
+.portfolio {
+margin-top: 1000px;
+}
+.navbar-services {
+transform: translateY(200px);
+}
+}
+
 
 
 
