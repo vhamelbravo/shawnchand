@@ -111,7 +111,7 @@ return (
 
 	</Modal>
 	
-	<li> <Link to="/services"> <p className="services-link text-white 500 text-3xl translate-y-[50%] translate-x-[20%] hover:underline">   Services  </p> </Link> </li>
+	<li> <Link to="/services"> <p className="services-link text-white 500 text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navAbout} className="nav-about-img w-[36px] mx-[-13%] absolute" />    Services  </p> </Link> </li>
 	<li> <a href="mailto:shawn@shawnjc.ca"> <p className="contact text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navContact} className="nav-contact-img w-[36px] mx-[-13%] absolute" />  Contact  </p> </a> </li>
 	<a href="https://instagram.com"> <img src={insta} id="insta" className="socials instagram h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-36%]" /> </a>
 	<a href="https://twitter.com"> <img src={twitter} id="twitter" className="socials twitter h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-16%]" /> </a>
