@@ -1170,7 +1170,7 @@ margin-top: 1000px;
 transform: translateY(-240px);
 }
 }
-@media (width: 768px) and (height: 1024px) {
+@media (width: 768px) and (height: 1024px) and (orientation: portrait) {
 .navbar-mobile-button {
 margin-top: -1600px;
 margin-left: 650px;
@@ -1369,8 +1369,405 @@ margin-top: 1000px;
 transform: translateY(200px);
 }
 }
+@media (min-width: 1024px) and (max-width: 1280px) {
+.header {
+margin-left: -350px;
+}
+.navbar-mobile-button {
+margin-top: -500px;
+margin-left: 900px;
+}
+.navbar-mobile-checkbox {
+position: absolute;
+margin-top: -470px;
+margin-left: 920px;
+}
+.navbar {
+position: absolute;
+margin-top: -400px;
+margin-left: 700px;
+}
+.profile {
+margin-top: -1200px;
+}
+.navbar-about {
+margin-top: -250px;
+margin-left: -100px;
+}
+.about-3-title {
+margin-left: 50px;
+}
+.about-3 {
+margin-left: 50px;
+}
+.about-5-title {
+margin-left: 70px;
+}
+.about-5 {
+margin-left: 50px;
+}
+.navbar-blog {
+margin-top: -300px;
+transform: translateY(380px)
+}
+.blog-title {
+transform: translateY(-240px);
+}
+.blog-page-title {
+margin-top: 500px;
+}
+.post-navbar {
+transform: translateY(-250px)
+}
+.navbar-services {
+transform: translateY(-500px)
+}
+.portfolio {
+height: 2000px;
+margin-top: 1300px;
+}
+.portfolio-title {
+margin-left: 50px;
+}
+.project-img-1 {
+margin-top: -190px;
+}
+.project-text-1 {
+margin-top: 200px;
+margin-left: 170px;
+}
+.btn1 {
+position: absolute;
+margin-top: 10px;
+margin-left: 300px;
+}
+.project-text-2 {
+margin-top: 1350px;
+margin-left: -450px;
+}
+.btn2 {
+position: absolute;
+margin-top: 1130px;
+margin-left: -210px;
+}
+.project-text-3 {
+margin-top: 1450px;
+margin-left: -940px;
+}
+.btn3 {
+position: absolute;
+margin-top: 1450px;
+margin-left: -700px;
+}
+.portfolio-button-next {
+display: none;
+}
+}
+@media (min-width: 1024px) and (max-width: 1280px) and (orientation:landscape) {
+body {
+display: none;
+}
+}
+@media (min-width: 1281px) and (max-width: 1536px) {
+.header {
+margin-left: -250px;
+}
+.profile {
+margin-left: -280px;
+}
+.navbar {
+margin-left: 1050px;
+margin-top: -480px;
+}
+.linkedin {
+margin-top: -250px;
+margin-left: 13px;
+}
+.reddit {
+margin-top: -250px;
+margin-left: -80px;
+}
+.tiktok {
+margin-left: -180px;
+margin-top: -250px;
+}
+.blog-preview {
+margin-left: 50px;
+}
+.portfolio-preview {
+margin-top: 700px;
+margin-left: 40px;
+}
+.footer {
+margin-left: -200px;
+}
+.about-main {
+margin-left: 10px;
+}
+.abouts {
+border: none;
+}
+.about-1-title {
+margin-left: -300px;
+}
+.about-1 {
+margin-left: 10px;
+}
+.about-2-title {
+margin-top: 30px;
+}
+.about-2 {
+position: absolute;
+margin-top: 835px;
 
+}
+.about-3-title {
+position: absolute;
+margin-left: -100px;
+margin-top: 450px;
+max-width: 800px;
+}
+.about-3 {
+margin-left: 10px;
+transform: translateY(-200px)
+}
+.about-4-title {
+margin-top: -120px;
+}
+.about-5-title {
+margin-left: -100px;
+margin-top: 50px;
+}
+.about-5 {
+margin-left: 10px;
+}
+.about-6-title {
+margin-left: 20px;
+}
+.about-6 {
+margin-left: 730px;
+}
+.blog-page {
+margin-top: 550px;
+}
+.blog-page-title {
+display: block;
+}
+.project-img-2 {
+margin-top: -1030px;
+}
+.portfolio {
+margin-left: -100px;
+width: 2000px;
+}
+.services-container {
+margin-top: -250px;
+margin-left: -10px;
+transform: scale(1);
+border: none;
+}
+.services-title {
+margin-top: -400px;
+}
+.navbar-services {
+position: absolute;
+margin-top: 100px;
+margin-left: 60px;
+}
+.post-date {
+margin-left: 250px;
+transform: translateY(-300px);
+}
+.post {
+transform: translateY(-200px)
+}
+.img-post {
+transform: translateY(-200px)
+}
+.post-title {
+transform: translateY(-400px);
+margin-left: 100px;
+}
+.post-navbar {
+position: absolute;
+}
+}
+@media (width: 1280px) and (min-height: 800px) and (max-height: 950px) and (orientation: landscape) {
+body {
+display: block;
+}
+.profile {
+margin-top: -500px;
+margin-left: -300px;
+}
+.navbar {
+margin-left: 1000px;
+margin-top: -480px;
+}
+.socials {
+transform: scale(.2)
+}
+.instagram {
+margin-left: 90px;
+}
+.linkedin {
+margin-top: -158px;
+margin-left: -90px;
+}
+.reddit {
+margin-top: -238px;
+margin-left: -90px;
+}
+.tiktok {
+margin-top: -230px;
+margin-left: 90px;
+}
+.blog-preview {
+margin-top: 10px;
+margin-left: -15px;
+}
+.portfolio-preview {
+margin-top: 600px;
+margin-left: -10px;
+}
+.about-main {
+margin-left: 10px;
+border: none;
+}
+.abouts {
+border: none;
+max-width: 500px;
+}
+.about-1-title {
+margin-left: -200px;
+}
+.about-1 {
+margin-left: 10px;
+}
+.about-2-title {
+margin-top: 40px;
+margin-left: -100px;
+}
+.about-2 {
+position: absolute;
+margin-top: 815px;
 
+}
+.about-3-title {
+position: absolute;
+margin-left: -100px;
+margin-top: 450px;
+max-width: 800px;
+}
+.about-3 {
+margin-left: 10px;
+transform: translateY(-180px)
+}
+.about-4-title {
+margin-top: -50px;
+}
+.about-5-title {
+margin-left: -100px;
+margin-top: 50px;
+}
+.about-5 {
+margin-left: 10px;
+}
+.about-6-title {
+margin-left: 20px;
+}
+.about-6 {
+margin-left: 730px;
+}
+.navbar-about {
+margin-top: -30px;
+margin-left: -45px;
+}
+.blog-page-title {
+margin-top: 10px;
+transform: translateY(80px)
+}
+.blog-page-date {
+margin-top: 80px;
+transform: translateY(-30px);
+margin-left: 600px;
+}
+.post-date {
+margin-left: 250px;
+transform: translateY(-300px);
+}
+.post {
+transform: translateY(-200px)
+}
+.img-post {
+transform: translateY(-200px)
+}
+.post-title {
+transform: translateY(-400px);
+margin-left: 100px;
+}
+.post-navbar {
+position: absolute;
+margin-top: 500px;
+}
+.portfolio-title {
+margin-left: -100px;
+}
+.project-text-1 {
+margin-left: -10px;
+}
+.btn1 {
+margin-left: -30px;
+}
+.project-img-2 {
+margin-top: -1030px;
+}
+.project-text-2 {
+margin-top: -30px;
+margin-left: -70px;
+}
+.btn2 {
+margin-top: -10px;
+margin-left: -40px;
+}
+.project-img-3 {
+position: absolute;
+margin-top: -100px;
+}
+.project-text-3 {
+margin-top: 295px;
+margin-left: -130px;
+}
+.btn3 {
+margin-top: 535px;
+margin-left: -120px;
+}
+.project-subtext {
+opacity: 0;
+}
+.portfolio {
+margin-left: -100px;
+height: 1200px;
+width: 2000px;
+}
+.portfolio-button-next {
+position: absolute;
+margin-top: 200px;
+display: block;
+}
+.services-container {
+margin-top: -250px;
+margin-left: -60px;
+transform: scale(.9);
+border: none;
+}
+.services-title {
+margin-top: -400px;
+}
+.navbar-services {
+position: absolute;
+margin-top: 700px;
+}
 
-
+}
 

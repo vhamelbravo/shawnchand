@@ -76,15 +76,15 @@ return (
 		                <h1 className="text-white portfolio-img-others text-2xl translate-y-[800%] translate-x-[8%] "> Project 4 Name </h1>
 		                <p className="text-white project-subtext translate-y-[1200%] translate-x-[8%] "> Project Description </p>
 		                <button className="btn1 text-white border border-slate-400 rounded translate-y-[1630%] translate-x-[200%] scale-[200%] relative z-20 opacity-100 ">See More </button>
-		                <img src={placeholder} className="project-img relative img1 my-[-15%] scale-[40%] translate-x-[-28%] hover:opacity-50 " />
-		                <h1 className="absolute text-white text-2xl translate-y-[-1250%] translate-x-[270%]"> Project 5 Name </h1>
+		                <img src={placeholder} className="project-img project-img-1 relative img1 my-[-15%] scale-[40%] translate-x-[-28%] hover:opacity-50 " />
+		                <h1 className="absolute text-white project-text-4 text-2xl translate-y-[-1250%] translate-x-[270%]"> Project 5 Name </h1>
 		                <p className="absolute text-white project-subtext  translate-y-[-1380%] translate-x-[312%]"> Project Description </p>
 		                <button className="absolute btn2 text-white border border-slate-400 rounded scale-[200%] translate-y-[-700%] translate-x-[780%] z-20"> See More </button>
-		                <img src={placeholder} className="portfolio-img-others project-img relative img2 scale-[40%] my-[-68.5%] translate-x-[23%] hover:opacity-50" />
+		                <img src={placeholder} className="portfolio-img-others project-img project-img-2 relative img2 scale-[40%] my-[-68.5%] translate-x-[23%] hover:opacity-50" />
 		                <h1 className="absolute text-white text-2xl my-[26.5%] translate-x-[485%]"> Project 6 Name </h1>
 		                <p className="absolute text-white project-subtext  my-[31%] translate-x-[563%]"> Project Description </p>
 		                <button className="absolute btn3 text-white border border-slate-400 rounded scale-[200%] z-20 my-[41%] translate-x-[1350%] "> See More </button>
-	                        <img src={placeholder} className="project-img portfolio-img-others relative img3 scale-[40%] my-[0.5%] mx-[50%] hover:opacity-50" />
+	                        <img src={placeholder} className="project-img project-img-3 portfolio-img-others relative img3 scale-[40%] my-[0.5%] mx-[50%] hover:opacity-50" />
 		                </>
 		        )}
 	{isVisible === 3 && (
@@ -92,15 +92,15 @@ return (
 		                                <h1 className="text-white text-2xl translate-y-[800%] translate-x-[8%] "> Project 7 Name </h1>
 		                                <p className="text-white project-subtext translate-y-[1200%] translate-x-[8%] "> Project Description </p>
 		                                <button className="btn1 text-white border border-slate-400 rounded translate-y-[1630%] translate-x-[200%] scale-[200%] relative z-20 opacity-100 ">See More </button>
-		                                <img src={placeholder} className="project-img relative img1 my-[-15%] scale-[40%] translate-x-[-28%] hover:opacity-50 " />
+		                                <img src={placeholder} className="project-img project-img-1 relative img1 my-[-15%] scale-[40%] translate-x-[-28%] hover:opacity-50 " />
 		                                <h1 className="absolute text-white text-2xl translate-y-[-1250%] translate-x-[270%]"> Project 8 Name </h1>
 		                                <p className="absolute project-subtext text-white translate-y-[-1380%] translate-x-[312%]"> Project Description </p>
 		                                <button className="absolute project-button btn2 text-white border border-slate-400 rounded scale-[200%] translate-y-[-700%] translate-x-[780%] z-20"> See More </button>
-		                                <img src={placeholder} className="project-img relative img2 scale-[40%] my-[-68.5%] translate-x-[23%] hover:opacity-50" />
+		                                <img src={placeholder} className="project-img relative img2 project-img-2 scale-[40%] my-[-68.5%] translate-x-[23%] hover:opacity-50" />
 		                                <h1 className="absolute text-white text-2xl my-[26.5%] translate-x-[485%]"> Project 9 Name </h1>
 		                                <p className="absolute project-subtext text-white my-[31%] translate-x-[563%]"> Project Description </p>
 		                                <button className="absolute btn3 project-button text-white border border-slate-400 rounded scale-[200%] z-20 my-[41%] translate-x-[1350%] "> See More </button>
-		                                <img src={placeholder} className="project-img relative img3 scale-[40%] my-[0.5%] mx-[50%] hover:opacity-50" />
+		                                <img src={placeholder} className="project-img project-img-3 relative img3 scale-[40%] my-[0.5%] mx-[50%] hover:opacity-50" />
 		
 		                                </>
 
