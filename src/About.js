@@ -81,7 +81,9 @@ function About () {
 		</ul>    </p>
 			</div>
 
+		<div className="about-footer">
 		<Footer />
+		</div>
 			
 			
 			
