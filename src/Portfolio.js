@@ -19,11 +19,11 @@ const [isVisible, setIsVisible] = useState(1)
 return (
 <>
 <div className="portfolio-preview border w-[83rem] mx-[17.5%] translate-y-[-250%]">
-<h1 className="text-cyan-500 text-7xl mx-[1%]"> Portfolio </h1>
+<h1 className="portfolio-preview-title text-cyan-500 text-7xl mx-[1%]"> Portfolio </h1>
 <p className="portfolio-text text-white text-3xl mx-[2%]"> <a href="#" className="portfolio-text hover:underline text-cyan-500 text-3xl"> Project </a> - Description of Project </p>
 <p className="portfolio-text text-white text-3xl mx-[2%]"> <a href="#" className="portfolio-text hover:underline text-cyan-500 text-3xl"> Project </a> - Description of Project </p>
 <p className="portfolio-text text-white text-3xl mx-[2%]"> <a href="#" className="portfolio-text hover:underline text-cyan-500 3xl"> Project </a> - Description of Project </p>
-<p className="text-white text-3xl mx-[2%]"> <button onClick={toggle} className="read-more-portfolio text-cyan-500 text-xl"> Read More </button> </p>
+<p className="read-more-portfolio-text text-white text-3xl mx-[2%]"> <button onClick={toggle} className="read-more-portfolio text-cyan-500 text-xl"> Read More </button> </p>
 <Modal active={active} className="modal" toggle={toggle}>
 
 <h1 className="portfolio-title text-cyan-500 text-9xl translate-y-[50%] translate-x-[25%] "> Portfolio </h1>

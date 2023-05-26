@@ -513,14 +513,65 @@ transform: translateY(-100px)}
 transform: translateY(150px)
 }}
 @media (height: 844px) {
+.header {
+width: 240px;
+margin-left: 0px;
+}
 .navbar-mobile-button {
 margin-top: -1100px;
 }
 .navbar-mobile-checkbox {
 margin-top: -1100px;
 }
+.navbar-title {
+width: 220px;
+}
+.navbar-links {
+width: 250px;
+}
+.portfolio-link {
+margin-left: -75px;
+}
+.nav-portfolio-img {
+margin-left: 5px;
+}
 .navbar {
 margin-top: -1000px;
+}
+.blog-preview {
+width: 300px;
+}
+.blog-preview-header {
+width: 330px;
+margin: 0;
+transform: translateX(10px)
+}
+.blog-preview-tiitle {
+width: 330px;
+}
+.blog-preview-list {
+width: 330px;
+}
+.blog-preview-section {
+width: 300px;
+}
+.blog-read-more {
+transform: translateX(20px)
+}
+.portfolio-preview-title {
+width: 425px;
+margin: 0;
+}
+.portfolio-text {
+margin: 0;
+transform: translateX(30px)
+}
+.read-more-portfolio {
+width: 105px;
+transform: translateX(-20px)
+}
+.read-more-portfolio-text {
+width: 105px;
 }
 .navbar-blog {
 transform: translateY(-100px)

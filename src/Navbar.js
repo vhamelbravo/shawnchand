@@ -45,10 +45,10 @@ return (
 	<div className="navbar grid border-2 border-slate-400 w-[20rem] mx-[70%] my-[-25%] h-[30.5rem]">
 	<h1 className="navbar-title text-white text-3xl translate-x-[2%] translate-y-[30%] font-bold"> Navigation </h1>
 	<ul>
-	<li> <Link to="/"> <p className="home-link text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navHome} className="nav-home-img w-[36px] mx-[-13%] absolute" /> Home  </p> </Link> </li>
-	<li> <Link to="/about"> <p className="about-link text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navAbout} className="nav-about-img w-[36px] mx-[-13%] absolute" />  About  </p> </Link> </li>
-	<li> <Link to="/blog"> <p className="blog-link text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navBlog} className="nav-blog-img w-[36px] mx-[-13%] absolute" />  Blog  </p> </Link> </li>
-	<li> <button onClick={toggle} className="portfolio-button"> <p className="portfolio-link text-white text-3xl translate-y-[50%] translate-x-[35%] hover:underline"> <img src={navPortfolio} className="nav-portfolio-img w-[36px] mx-[-23%] absolute" />  Portfolio  </p> </button> </li>
+	<li> <Link to="/"> <p className="navbar-links home-link text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navHome} className="nav-home-img w-[36px] mx-[-13%] absolute" /> Home  </p> </Link> </li>
+	<li> <Link to="/about"> <p className="navbar-links about-link text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navAbout} className="nav-about-img w-[36px] mx-[-13%] absolute" />  About  </p> </Link> </li>
+	<li> <Link to="/blog"> <p className="navbar-links blog-link text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navBlog} className="nav-blog-img w-[36px] mx-[-13%] absolute" />  Blog  </p> </Link> </li>
+	<li> <button onClick={toggle} className="portfolio-button"> <p className="navbar-links portfolio-link text-white text-3xl translate-y-[50%] translate-x-[35%] hover:underline"> <img src={navPortfolio} className="nav-portfolio-img w-[36px] mx-[-23%] absolute" />  Portfolio  </p> </button> </li>
 
 	
 	<Modal className="modal" active={active} toggle={toggle}>
@@ -111,8 +111,8 @@ return (
 
 	</Modal>
 	
-	<li> <Link to="/services"> <p className="services-link text-white 500 text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navAbout} className="nav-about-img w-[36px] mx-[-13%] absolute" />    Services  </p> </Link> </li>
-	<li> <a href="mailto:shawn@shawnjc.ca"> <p className="contact text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navContact} className="nav-contact-img w-[36px] mx-[-13%] absolute" />  Contact  </p> </a> </li>
+	<li> <Link to="/services"> <p className="navbar-links services-link text-white 500 text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navAbout} className="nav-about-img w-[36px] mx-[-13%] absolute" />    Services  </p> </Link> </li>
+	<li> <a href="mailto:shawn@shawnjc.ca"> <p className="navbar-links contact text-white text-3xl translate-y-[50%] translate-x-[20%] hover:underline"> <img src={navContact} className="nav-contact-img w-[36px] mx-[-13%] absolute" />  Contact  </p> </a> </li>
 	<a href="https://instagram.com"> <img src={insta} id="insta" className="socials instagram h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-36%]" /> </a>
 	<a href="https://twitter.com"> <img src={twitter} id="twitter" className="socials twitter h-fit absolute scale-[11%] translate-y-[-35%] translate-x-[-16%]" /> </a>
 	<a href="https://discord.com/users/150504671033819136"> <img src={discord} className="socials discord h-fit scale-[18%] my-[-25%] translate-x-[33%]" /> </a>
