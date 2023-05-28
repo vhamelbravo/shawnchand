@@ -8,11 +8,11 @@ import Portfolio from './Portfolio.js'
 function App() {
   return (
 	  <>
-	  <Header />
-	  <Profile />
-	  <Navbar />
+	  <Header /> 
+	  <Profile /> 
+	  <Navbar />  
 	  <Blog />
-	  <Portfolio />
+	  <Portfolio /> 
 	  <Footer />
 	  </>
   )

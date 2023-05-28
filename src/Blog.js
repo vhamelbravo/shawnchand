@@ -23,8 +23,9 @@ function Blog () {
 				}, [])
 	return (
 		<>
-			<div className="blog-preview border-2 border-slate-400 w-[83rem] my-[30%] mx-[17.5%] pb-[5rem] ">
-			<h1 className="blog-preview-header text-cyan-500 text-7xl mx-[1%] my-[3%] "> Blog </h1>
+		<div className="flex justify-start pl-[10%]">
+			<div className="blog-preview border-2 border-slate-400 w-[90%] max-w-[100%]  pb-[5rem] translate-y-[-95%] ">
+			<h1 className="blog-preview-header text-cyan-500 text-7xl  "> Blog </h1>
 			{blogPosts?.items?.slice(0,3).map((post) => {
 						return (
 										<section className="blog-preview-section" key={post.sys.id}>
@@ -38,6 +39,7 @@ function Blog () {
 					)}
 			  <p className="blog-read-more text-cyan-500 text-xl hover:underline translate-x-[2%] translate-y-[60%]"><Link to="/blog"> Read More </Link> </p>   
 			</div>
+		</div>
 		</>
 			)
 }

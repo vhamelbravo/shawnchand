@@ -11,13 +11,16 @@ import Footer from './Footer'
 function Services () {
 	return (
 	<>
-		<div className="h-[2000px] services">
-
-		<h1 className="services-title text-cyan-500 text-9xl my-[-8%] mx-[25%] absolute"> Services </h1>
-		<div className="my-[33%]">
-		<div className="services-container border border-slate-400 w-[75rem] translate-y-[1%] mx-[5%] h-[1800px] absolute ">
-		<img src={art} className="absolute service-img service-1-img scale-[20%] my-[-20%] mx-[-28%]" />
-		<h1 className="service-1-title service-title text-cyan-500 text-xl translate-y-[200%] w-fit translate-x-[80%]  "> Art/Digital Photography </h1>
+		<div className=" services">
+		<div className="flex justify-center">
+		<h1 className="services-title text-cyan-500 text-9xl absolute"> Services </h1>
+		</div>
+		<div className="pl-[5%]">
+		<div className="services-container border border-slate-400 w-[75rem] translate-y-[10%]  h-[1800px] absolute ">
+		<div className="flex justify-start translate-x-[-28%]  ">
+		<img src={art} className="absolute translate-y-[-25%] service-img service-1-img scale-[20%] " />
+		</div>
+		<h1 className="service-1-title service-title text-cyan-500 text-xl translate-y-[200%] w-fit "> Art/Digital Photography </h1>
 		<p className="service-text max-w-[300px] my-[8%] mx-[22%] text-white">
 		Capture the essence of moments with our artful and immersive digital photography services. Whether it's capturing the beauty of landscapes, the depth of emotions in portraits, or the intricate details of still life, I am a skilled photographer and have an eye for transforming scenes into captivating visual stories. Let us preserve your memories and create stunning visuals that leave a lasting impact. </p>
 		<img className="service-img service-2-img scale-[100%] my-[-41%] mx-[50%]" src={coaching} />
@@ -41,7 +44,7 @@ function Services () {
 		
 		</div>
 		
-		<div className="navbar-services">
+		<div className="navbar-services translate-y-[130%]">
 		<Navbar/>
 		</div>
 		<div className="services-footer translate-y-[8000%]">

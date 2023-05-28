@@ -2,8 +2,8 @@
 function Header () {
 	return (
 		<>
-		<div className="h-screen">
-	        <h1 className="header text-cyan-500 text-9xl translate-x-[25%] "> Shawn Chand </h1>
+		<div className="flex justify-center">
+	        <h1 className="header text-cyan-500 translate-x-[5%] text-9xl "> Shawn Chand </h1>
 		</div>
 		</>
 	)

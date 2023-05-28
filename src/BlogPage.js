@@ -27,31 +27,33 @@ function BlogPage()  {
 
 	return (
 		<>	
-			<div className="blog-page my-[29%]"> </div>
-			<h1 className="blog-title text-cyan-500 text-9xl translate-y-[-430%] translate-x-[40%]"> Blog </h1>
-		
 
-                        <div>
-		<div className="navbar-blog">
+                        <div className="translate-y-[130%]">
 			<Navbar />
 		</div>
+			<div className="blog-page "> </div>
+		<div className="flex flex-col items-center translate-y-[-350%]">
+			<h1 className="blog-title text-cyan-500 text-9xl" > Blog </h1>
+
 		  </div>
 		
 		{blogPosts?.items?.map((post) => { 
 			return (
 				<section key={post.sys.id}>
-				 <Link to={`/blog/${post.sys.id}`} className="w-fit"> <h1 className="blog-page-title min-w-[500px] max-w-[500px] relative text-white text-5xl translate-y-[-100%] mx-[10%] hover:text-slate-400 w-fit truncate">{post.fields.title} </h1> </Link>
-					<p className="blog-page-date text-white text-3xl translate-y-[-250%] translate-x-[350%] w-fit"> {post.fields.date} </p>
+				<div className="flex flex-col items-center pr-[30%] translate-y-[-600%]">
+				 <Link to={`/blog/${post.sys.id}`} className="w-fit"> <h1 className="blog-page-title min-w-[500px] max-w-[500px] relative text-white text-5xl hover:text-slate-400 w-fit truncate">{post.fields.title} </h1> </Link>
+				</div>
+				<div className="flex flex-col items-center pl-[12%] translate-y-[-900%]">
+					<p className="blog-page-date text-white text-3xl w-fit"> {post.fields.date} </p>
+				</div>
 					</section>
 					)
 				}
 				)
 				}
-		
-			<div className="footer-blog mt-[70%] translate-x-[3%]">
-			<Footer />
-			</div>
-		
+		<div className="pt-[30%]">
+		<Footer />
+		</div>
 			</>
 	)	
 
