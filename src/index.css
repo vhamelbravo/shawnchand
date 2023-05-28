@@ -48,144 +48,117 @@ html {
 			  top: 50%;
 		  }
 	  }
-/* @media (min-width: 320px) and (max-width: 480px) {
+ @media (min-width: 320px) and (max-width: 480px) {
+body {
+padding-bottom: 30%;
+}
 .header {
 font-size: 60px;
-margin-left: -80px;
 }
 .profile {
 border: none;
 }
 .profile-img {
-position: absolute;
-margin-top: -650px;
-margin-left: -620px;
-transform: scale(.5)
+transform: scale(.8);
+bottom: 70%;
+right: 10%
 }
 .header-profile {
-position: absolute;
-margin-top: 150px;
-margin-left: -340px;
 font-size: 25px;
+bottom: 10%;
 }
 .intro-text {
-position: absolute;
-margin-left: -400px;
-margin-top: 20%;
 max-width: 350px;
+transform: translateY(50%);
 }
 .facts {
-position: absolute;
-margin-left: -330px;
-margin-top: 65%;
 max-width: 350px;
+transform: translateY(200%)
 }
 .facts-text {
 position: absolute;
-margin-left: -330px;
-margin-top: 800px;
 max-width: 300px;
+transform: translateY(800%)
 }
 .facts-1 {
-margin-top: 780px;
 }
 .facts-2 {
-margin-top: 900px;
+transform: translateY(650%)
 }
 .facts-3 {
-margin-top: 800px;
+transform: translateY(600%)
 }
 .facts-4 {
-margin-top: 950px;
+transform: translateY(400%)
 }
 .navbar {
-position: absolute;
 display: none;
-margin-top: -900px;
-margin-left: 30px;
+transform: translateY(-160%);
 z-index: 40;
 background: url("./assets/background.png")
 }
 .socials {
-transform: scale(.2)
 }
 .instagram {
-margin-top: -80px;
-margin-left: -100px;
 }
 .linkedin {
-margin-top: -235px;
-margin-left: 100px;
 }
 .reddit {
-margin-top: -160px;
-margin-left: -100px;
 }
 .tiktok {
-margin-top: -155px;
-margin-left: 100px;
 }
 .navbar-mobile-button {
 position: absolute;
 display: block;
-margin-top: -270%;
-margin-left: 300px;
+bottom: 275%;
 }
 .navbar-mobile-checkbox {
 display: block;
 position: absolute;
-margin-top: -260%;
-margin-left: 320px;
-transform: scale(3);
+transform: scale(3) ;
 z-index: 30;
 opacity: 0;
+bottom: 275%
 }
 .navbar-mobile-checkbox:checked ~ .navbar {
 display: block;
 }
 .blog-preview {
 border: none;
-margin-top: 650px;
-margin-left: -10px;
+transform: translateY(30%)
 }
 .blog-preview-title {
 max-width: 200px;
-margin-left: 20px;
+}
+.portfolio-preview-container {
+padding-right: 40%;
 }
 .portfolio-preview {
 border: none;
-margin-top: -150px;
-margin-left: -130px;
-transform: scale(.8)
+transform: scale(.8) translateY(100%);
 }
 .portfolio-text {
 max-width: 200px;
 }
 .footer {
-margin-left: -80px;
 font-size: 10px;
 max-width: 300px;
+transform: translateY(250%) translateX(10%);
 }
 .about-title {
 font-size: 50px;
-margin-left: -150px;
 }
 .about-main {
 border: none;
-margin-left: -50px;
 overflow-y: hidden;
 }
 .about-text {
-margin-top: 230px;
-margin-left: -150px;
 max-width: 300px;
 overflow-y: auto;
 }
 .navbar-about {
-margin-top: 400px;
 }
 .abouts-title {
-position: absolute;
 font-size: 38px;
 max-width: 400px;
 }
@@ -194,90 +167,53 @@ border: none;
 max-width: 300px;
 }
 .about-1-title {
-margin-top: 600px;
-margin-left: -60px;
 }
 .about-1 {
-margin-top: -300px;
 }
 .about-2-title {
-margin-left: -210px;
-margin-top: 1150px;
 }
 .about-2 {
-margin-top: 80px;
-margin-left: 30px;
 }
 .about-3-title {
-margin-top: 650px;
-margin-left: -58px;
 }
 .about-3 {
-margin-top: 130px;
 }
 .about-4-title {
-margin-top: 2000px;
-margin-left: -200px;
 }
 .about-4 {
-margin-top: 650px;
-margin-left: 30px;
 }
 .about-5-title {
-margin-top: 2650px;
 }
 .about-6-title {
-margin-top: 3400px;
-margin-left: -180px;
 }
 .about-6 {
-margin-top: 400px;
-margin-left: 30px;
 }
 .blog-title {
-margin-top: 280px;
-margin-left: -150px;
 font-size: 50px;
 }
 .navbar-blog {
-margin-top: 700px;
 }
 .blog-page-title {
-top: -800px;
-left: -40px;
 }
 .post {
-transform: translateY(-900px);
-margin-left: 50px;
 }
 .post-title {
-margin-top: 250px;
-margin-left: 10px;
 font-size: 50px;
 overflow: visible;
 max-width: 300px;
 }
 .post-date {
-position: absolute;
-margin-left: -200px;
-margin-top: -900px;
 font-size: 30px;
 }
 .post-navbar {
-margin-top: 750px;
 }
 .post-text {
-margin-left: -30px;
 max-width: 300px;
 }
 .post-link {
-margin-left: -30px;
 max-width: 300px;
 }
 .img-post {
-margin-left: -100px;
-transform: translateY(-900px);
-position: absolute;
 z-index: 100;
 }
 .portfolio {
@@ -286,7 +222,6 @@ margin-top: 400px;
 }
 .portfolio-title {
 font-size: 45px;
-margin-left: -80px;
 }
 .project-subtext {
 display: none;
@@ -295,46 +230,24 @@ display: none;
 transform: scale(.8)
 }
 .btn1 {
-position: absolute;
-margin-top: -100px;
-margin-left: -100px;
 }
 .project-img-2 {
-margin-top: 180px;
 }
 .project-text-2 {
-position: absolute;
-margin-top: 850px;
-margin-left: -620px;
 }
 .btn2 {
-position: absolute;
-margin-left: -630px;
-margin-top: 700px;
 }
 .project-img-3 {
-margin-top: 300px;
-margin-left: -10px;
 }
 .project-text-3 {
-position: absolute;
-margin-top: 550px;
-margin-left: -1150px;
 }
 .btn3 {
-position: absolute;
-margin-left: -1150px;
-margin-top: 600px;
 }
 .services-title {
 font-size: 50px;
-margin-top: -950px;
-margin-left: -10px;
 }
 .services-container {
 transform: scale(.35);
-margin-left: -400px;
-margin-top: -1450px;
 border: none;
 }
 .service-text {
@@ -347,65 +260,42 @@ overflow: scroll;
 font-size: 30px;
 }
 .service-1-title {
-margin-left: -340px;
 }
 .service-2-title {
-margin-left: 550px;
 }
 .service-2-img {
-margin-top: -500px;
-margin-left: 530px;
 }
 .service-3-img {
-margin-top: 300px;
 }
 .service-3-title {
-margin-top: 400px;
-margin-left: 50px;
 }
 .service-4-img {
-margin-top: -500px;
 }
 .service-4-text {
-margin-top: -50px;
-margin-left: 30px;
 }
 .service-4-title {
-margin-left: -700px;
 }
 .service-5-img {
-margin-top: 20px;
 }
 .service-5-title {
-position: absolute;
-margin-top: 35px;
-margin-left: -20px;
 }
 .service-5-text {
-margin-top: 100px;
 }
 .service-6-img {
-margin-left: 150px;
 }
 .service-6-title {
-margin-left: -800px;
 }
 .service-6-text {
-margin-left: 30px;
 }
 .services {
-margin-top: 100px;
 }
 .services-footer {
-position: absolute;
-margin-top: -1900px;
 }
 .navbar-services {
-margin-top: 1000px;
 }
 }
 
-@media (min-height: 700px) and (max-height: 1000px) and  (max-width: 480px) {
+/* @media (min-height: 700px) and (max-height: 1000px) and  (max-width: 480px) {
 .navbar-mobile-button {
 margin-top: -1200px;
 }

@@ -18,7 +18,7 @@ const [isVisible, setIsVisible] = useState(1)
 		}
 return (
 <>
-<div className="flex flex-col items-center translate-y-[-50%] pl-[1%]">
+<div className="portfolio-preview-container flex flex-col items-center translate-y-[-50%] pl-[1%]">
 <div className="portfolio-preview border w-[85%]">
 <h1 className="portfolio-preview-title text-cyan-500 text-7xl"> Portfolio </h1>
 <p className="portfolio-text text-white text-3xl "> <a href="#" className="portfolio-text hover:underline text-cyan-500 text-3xl"> Project </a> - Description of Project </p>

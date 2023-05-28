@@ -41,8 +41,10 @@ const [isVisible, setIsVisible] = useState(1)
 return (
 <>
 
-	<input type="checkbox" className="navbar-mobile-checkbox hidden" /><p className="hidden text-white text-7xl navbar-mobile-button">  v</p> 
+	<div className="flex justify-end">
+	</div>
 	<div className="flex flex-row justify-end translate-y-[-90%] pr-[5%] h-[30rem]">
+	<input type="checkbox" className="navbar-mobile-checkbox hidden" /><p className="hidden text-white text-7xl navbar-mobile-button">  v</p> 
 	<div className="navbar  border-2 border-slate-400 w-[20rem] h-[30rem] ">
 	<h1 className="navbar-title text-white text-3xl translate-x-[2%] translate-y-[30%] font-bold"> Navigation </h1>
 	<ul>
