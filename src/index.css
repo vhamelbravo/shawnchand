@@ -147,46 +147,72 @@ transform: translateY(250%) translateX(10%);
 }
 .about-title {
 font-size: 50px;
+padding-right: 150px;
 }
 .about-main {
 border: none;
-overflow-y: hidden;
+}
+.about-image-container {
+transform: translateX(-5%)
+
 }
 .about-text {
-max-width: 300px;
-overflow-y: auto;
+max-width: 150px;
+transform: translateY(-180%);
 }
-.navbar-about {
+.about-text-container {
+padding-left: 10%;
 }
+.navbar-about-container {
+transform: translateY(170%);
+}
+
 .abouts-title {
-font-size: 38px;
-max-width: 400px;
 }
 .abouts {
 border: none;
 max-width: 300px;
 }
+.about-even-container {
+}
 .about-1-title {
+transform: translateY(-450%)
 }
 .about-1 {
+transform: translateY(-200%)
 }
 .about-2-title {
+transform: translateY(-430%) ;
+padding-left: 5%;
 }
 .about-2 {
+transform: translateY(-60%) translateX(-30%)
 }
 .about-3-title {
+padding-right: 25%;
+transform: translateY(-150%)
 }
 .about-3 {
+transform: translateY(-130%)
 }
 .about-4-title {
+padding-right: 78%;
+transform: translateY(450%)
 }
 .about-4 {
+transform: translateY(20%) translateX(-30%);
 }
 .about-5-title {
+transform: translateY(100%)
+}
+.about-5 {
+transform: translateY(50%)
+}
+.about-6{
+transform: translateY(-130%) translateX(-25%)
 }
 .about-6-title {
-}
-.about-6 {
+transform: translateY(150%) translateX(-25%)
 }
 .blog-title {
 font-size: 50px;

@@ -10,15 +10,19 @@ function About () {
 		<h1 className="about-title text-cyan-500 text-9xl translate-x-[30%] "> About Me </h1>
 		<div className="pl-[5%] pt-[5%] ">
 			<div className="about-main overflow-y-scroll border border-slate-400 w-[60rem]  h-[500px]  ">
+		<div className="about-image-container">
 			<img className="about-image scale-[30%] translate-y-[-35%] translate-x-[-30%]" src={image} />
+		</div>
+		<div className="about-text-container">
 			<p className="about-text text-white max-w-[500px] h-[360px] translate-y-[-250%] translate-x-[80%]"> Welcome to my creative sanctuary! I'm thrilled to share my journey as a multi-disciplinary artist and provide you with a glimpse into my world of pixel art, design, and passion. With a love for gaming aesthetics and a deep understanding of the art, design, and pop culture space, I'm dedicated to bringing your creative visions to life. Join me on this adventure as we explore the artistry, inspiration, and joy that pixels can evoke. 
 
 		</p>	
+		</div>
 			</div>
 		</div>
 			
 			
-			<div className="flex flex-col items-end pr-[5%]">
+			<div className="navbar-about-container flex flex-col items-end pr-[5%]">
 			<div className="navbar-about translate-y-[-15%]">
 		        <Navbar />	
 			</div>
@@ -40,12 +44,14 @@ function About () {
 			<h1 className="abouts-title about-2-title text-cyan-500 text-5xl flex flex-col justify-end items-end pr-[25%]  translate-y-[-650%]  ">Favorite Games </h1>
 		<div className="flex flex-col items-center justify-center pl-[35%] translate-y-[-122%] ">
 			<div className="abouts about-2 border border-slate-400 w-[45rem] max-h-[200px] h-[200px] p-[.3%] overflow-y-scroll">
+		<div className="about-even-container">
 			<p className="text-white abouts-text">Video games have been a significant source of inspiration for my artistic journey. They transport me to captivating worlds, filled with stunning visuals and imaginative narratives. Some of my favorite games include [list of favorite games], each one leaving an indelible mark on my artistic style. Drawing from these gaming experiences, I infuse my work with a sense of adventure and playfulness that resonates with fellow gamers and art enthusiasts alike. <br/> My favourite games are: <ul>
 		<li> Game 1 </li> 
 		<li> Game 2 </li> 
 		<li> Game 3 </li> 
 		<li> Game 4 </li> 
 		<li> Game 5 </li></ul> </p>
+		</div>
 			</div>
 		</div>
 		<h1 className="abouts-title about-3-title text-cyan-500 text-5xl  pl-[5%] "> Favorite Movies and Shows. </h1>
