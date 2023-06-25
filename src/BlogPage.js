@@ -28,7 +28,8 @@ function BlogPage()  {
 	return (
 		<>	
 
-                        <div className="translate-y-[130%]">
+		<div className="blog-page-full">
+                        <div className="navbar-blog translate-y-[130%]">
 			<Navbar />
 		</div>
 			<div className="blog-page "> </div>
@@ -51,8 +52,9 @@ function BlogPage()  {
 				}
 				)
 				}
-		<div className="pt-[30%]">
+		<div className="blog-footer pt-[30%]">
 		<Footer />
+	 	</div>
 		</div>
 			</>
 	)	

@@ -11,7 +11,7 @@ import Footer from './Footer'
 function Services () {
 	return (
 	<>
-		<div className=" services">
+		<div className="services h-[230vh]">
 		<div className="flex justify-center">
 		<h1 className="services-title text-cyan-500 text-9xl absolute"> Services </h1>
 		</div>

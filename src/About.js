@@ -6,7 +6,7 @@ function About () {
 			<>
 			
 			
-			<div className="">
+			<div className="about">
 		<h1 className="about-title text-cyan-500 text-9xl translate-x-[30%] "> About Me </h1>
 		<div className="pl-[5%] pt-[5%] ">
 			<div className="about-main overflow-y-scroll border border-slate-400 w-[60rem]  h-[500px]  ">

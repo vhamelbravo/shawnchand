@@ -32,12 +32,6 @@ const [isVisible, setIsVisible] = useState(1)
 		setIsVisible(1)  
 		}
 		}
-
-
-		  
-	
-	
-
 return (
 <>
 
