@@ -4,16 +4,18 @@ import Navbar from './Navbar.js'
 import Blog from './Blog.js'
 import Footer from './Footer.js'
 import Portfolio from './Portfolio.js'
+// 
+import "./index.css";
 
 function App() {
   return (
 	  <>
-	  <Header /> 
-	  <Profile /> 
-	  <Navbar />  
-	  <Blog />
-	  <Portfolio /> 
-	  <Footer />
+	  {/* <Header />  */}
+	  {/* <Profile />  */}
+	  <Navbar showNav = {false} />  
+	  {/* <Blog /> */}
+	  {/* <Portfolio />  */}
+	  {/* <Footer /> */}
 	  </>
   )
 }
