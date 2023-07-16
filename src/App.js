@@ -12,7 +12,7 @@ function App() {
 	  <>
 	  {/* <Header />  */}
 	  {/* <Profile />  */}
-	  <Navbar showNav = {false} />  
+	  <Navbar />  
 	  {/* <Blog /> */}
 	  {/* <Portfolio />  */}
 	  {/* <Footer /> */}

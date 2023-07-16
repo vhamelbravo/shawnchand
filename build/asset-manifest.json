@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0e7e06e.css",
+    "main.js": "/static/js/main.ee03b00d.js",
+    "static/js/787.0c3f432a.chunk.js": "/static/js/787.0c3f432a.chunk.js",
+    "static/media/background.png": "/static/media/background.da277545c065bc98f0be.png",
+    "static/media/writing.png": "/static/media/writing.1af1c2662d5580dac6e3.png",
+    "static/media/person.png": "/static/media/person.a49cffac594eccf9edbb.png",
+    "static/media/twitter.png": "/static/media/twitter.daee4fd3e04232b3ff45.png",
+    "static/media/coding.png": "/static/media/coding.f671b64d46930b7d0b29.png",
+    "static/media/planning.png": "/static/media/planning.ffd28d018f4748e606b5.png",
+    "static/media/placeholder.png": "/static/media/placeholder.b966c3ea92ec71e31eea.png",
+    "static/media/marketing.png": "/static/media/marketing.eb8533534e07bbfe5d34.png",
+    "static/media/design.png": "/static/media/design.f7f680898d67e1d23113.png",
+    "static/media/navHome.png": "/static/media/navHome.49e1f63523f9f305bb02.png",
+    "static/media/navAbout.png": "/static/media/navAbout.62253dcd3339e2683b45.png",
+    "static/media/navPortfolio.png": "/static/media/navPortfolio.18179eb341c7f65cb57f.png",
+    "static/media/navContact.png": "/static/media/navContact.05b843b26b1500e05719.png",
+    "static/media/navBlog.png": "/static/media/navBlog.444bf1d21024d84ac78f.png",
+    "static/media/reddit.png": "/static/media/reddit.184c6964e174680c5b01.png",
+    "static/media/instagram.png": "/static/media/instagram.cce8ad83bdff1c5687e0.png",
+    "static/media/tiktok.png": "/static/media/tiktok.716cd2fb8d6512073bb2.png",
+    "static/media/art.png": "/static/media/art.044abfb7b6c000e34a95.png",
+    "static/media/coaching.png": "/static/media/coaching.53ec80aa569c19a9840d.png",
+    "static/media/linkedin.png": "/static/media/linkedin.5f8e7fb357e23e765ae3.png",
+    "static/media/discord.png": "/static/media/discord.566aca86bb2910ca4eb9.png",
+    "index.html": "/index.html",
+    "main.e0e7e06e.css.map": "/static/css/main.e0e7e06e.css.map",
+    "main.ee03b00d.js.map": "/static/js/main.ee03b00d.js.map",
+    "787.0c3f432a.chunk.js.map": "/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0e7e06e.css",
+    "static/js/main.ee03b00d.js"
+  ]
+}
