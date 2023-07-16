@@ -281,7 +281,6 @@ template {
 .navbar {
   /* display: none; */
   /* transform: translateY(-220%); */
-  z-index: 40;
   background: url("./assets/background.png");
 }
 * {
@@ -320,13 +319,12 @@ html {
 }
 @media (min-width: 320px) and (max-width: 480px) {
   body {
-    padding-bottom: 30%;
+    /* padding-bottom: 30%; */
   }
   /* .header {
 font-size: 60px;
 } */
 
- 
   .profile {
     border: none;
   }

@@ -6,8 +6,7 @@ function Header() {
     <>
       <div className="flex justify-between md:justify-center lg:justify-start w-[100%] px-3 relative">
         <h1 className="header text-cyan-500 md:translate-x-[5%] text-3xl md:text-5xl lg:text-9xl ">
-          {" "}
-          Shawn Chand{" "}
+          Shawn Chand
         </h1>
 
         <button

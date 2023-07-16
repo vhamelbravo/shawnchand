@@ -32,16 +32,12 @@ function Navbar() {
     }
   };
   const navbarList = [
-    { linkTo: "/", img: { navHome }, text: "Home" },
-    { linkTo: "/about", img: { navAbout }, text: "About" },
-    { linkTo: "/blog", img: { navBlog }, text: "Blog" },
-    { linkTo: "/portfolio", img: { navPortfolio }, text: "Portfolio" },
-    { linkTo: "/services", img: { navAbout }, text: "Services" },
-    {
-      linkTo: "mailto:shawn@shawnjc.ca",
-      img: { navContact },
-      text: "Services",
-    },
+    { linkTo: "/", img: navHome, text: "Home" },
+    { linkTo: "/about", img: navAbout, text: "About" },
+    { linkTo: "/blog", img: navBlog, text: "Blog" },
+    { linkTo: "/portfolio", img: navPortfolio, text: "Portfolio" },
+    { linkTo: "/services", img: navAbout, text: "Services" },
+    { linkTo: "mailto:shawn@shawnjc.ca", img: navContact, text: "Contact" },
   ];
   /* 
           <li>
@@ -58,8 +54,12 @@ function Navbar() {
            */
 
   const iconsList = [
-    { link: "", img: "" },
-    { link: "", img: "" },
+    { link: "", img: insta },
+    { link: "", img: twitter },
+    { link: "", img: discord },
+    { link: "", img: linkedin },
+    { link: "", img: reddit },
+    { link: "", img: tiktok },
   ];
   /*            
    <a href="https://instagram.com">
@@ -72,15 +72,37 @@ function Navbar() {
             </a> */
 
   return (
-    <div className="flex flex-row justify-end pt-5 md:pt-[7.8rem] pr-[5%] h-[32rem]">
-      <div className="navbar border-2 border-slate-400 w-[100%] lg:w-[20rem]  ">
-        <div className="flex justify-between items-center px-3">
-          <h1 className="navbar-title text-white text-3xl translate-x-[2%] translate-y-[30%] font-bold">
-            Navigation
-          </h1>
-        </div>
-        {/* <ul> */}
-        {/* <li>
+    <div className="bg-['./assets/background.png'] border-2 py-4 px-3 border-slate-400 w-[100%] lg:w-[20rem]  ">
+      <div className=" flex justify-start items-center px-3">
+        <h1 className=" text-white text-3xl font-bold pb-3">Navigation</h1>
+      </div>
+      <div className="px-3">
+        {navbarList.map((item) => {
+          return (
+            <li className="flex flex-row justify-start items-center">
+              <Link to={item.linkTo}>
+                <img src={item.img} className="w-[36px]" />
+              </Link>
+              <Link to={item.linkTo}>
+                <p className="text-white text-3xl hover:underline px-2">
+                  {item.text}
+                </p>
+              </Link>
+            </li>
+          );
+        })}
+      </div>
+      <div className="py-5 grid grid-cols-3">
+        {iconsList.map((item) => {
+          return (
+            <a className="py-2" href={item.link}>
+              <img src={item.img} id="insta" className="w-[64px]" />
+            </a>
+          );
+        })}
+      </div>
+      {/* <ul> 
+        /* <li>
             <button onClick={toggle} className="portfolio-button">
               <p className="navbar-links portfolio-link text-white text-3xl translate-y-[50%] translate-x-[35%] hover:underline">
                 <img
@@ -90,8 +112,8 @@ function Navbar() {
                 Portfolio
               </p>
             </button>
-          </li> */}
-        {/* <Modal active={active} className="modal" toggle={toggle}>
+          </li> }
+         <Modal active={active} className="modal" toggle={toggle}>
             <h1 className="portfolio-title text-cyan-500 text-9xl translate-y-[50%] translate-x-[25%] ">
               Portfolio
             </h1>
@@ -232,9 +254,8 @@ function Navbar() {
                 />
               </>
             )}
-          </Modal> */}
-        {/* </ul> */}
-      </div>
+          </Modal> 
+         </ul> */}
     </div>
   );
 }
