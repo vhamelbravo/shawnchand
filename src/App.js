@@ -8,14 +8,17 @@ import Portfolio from './Portfolio.js'
 import "./index.css";
 
 function App() {
+	/* 
+	TODO: 
+	- scrollbar color
+	*/
   return (
 	  <>
 	  <Header /> 
 	  <Profile /> 
-	  {/* <Navbar />   */}
-	  {/* <Blog /> */}
-	  {/* <Portfolio />  */}
-	  {/* <Footer /> */}
+	  <Blog />
+	  <Portfolio /> 
+	  <Footer />
 	  </>
   )
 }

@@ -11,7 +11,7 @@ function Profile() {
     <>
     <div className="flex justify-center">
       <div className="flex justify-center w-[100%] p-2">
-        <div className="text-white w-[100%] md:w-[73%] lg:w-[56%] md:border border-slate-400  ">
+        <div className="text-white w-[100%] md:w-[83%] lg:w-[56%] md:border border-slate-400  ">
           <div>
             <h1 className="md:px-12 max-w-[100%]text-white text-4xl flex justify-start ">
               Welcome to My Forest!
@@ -19,6 +19,7 @@ function Profile() {
             <img className="md:hidden -ml-2 h-[150px] w-[150px]" src={image} />
           </div>
           <div className="flex justify-end">
+          <img className="hidden md:block w-44 h-44 self-end " src={image} />
             <p className="max-h-[50%] overflow-y-scroll w-[880px] md:w-[80%] py-5 md:py-0 text-white">
               Welcome to my creative corner! Immerse yourself in a world where
               pixels come alive and art meets passion. With a love for gaming
@@ -31,9 +32,8 @@ function Profile() {
               into extraordinary realities. Contact me today!
             </p>
           </div>
-          <div className="relative">
-            <img className="hidden md:block w-44 h-44 absolute bottom-10 -left-12" src={image} />
-            <p className="w-[80%] pt-6 text-2xl  md:text-3xl md:indent-28">
+          <div className="">
+            <p className="w-[80%] pt-6 text-2xl  md:text-3xl">
               Here are some quick facts about me
             </p>
           </div>
@@ -47,7 +47,7 @@ function Profile() {
             })}
           </ul>
         </div>
-        <div className="hidden md:block self-end ml-10">
+        <div className="hidden lg:block self-end ml-10">
         <Navbar />
         </div>
       </div>

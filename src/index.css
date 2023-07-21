@@ -279,8 +279,6 @@ template {
   left: 0;
 }
 .navbar {
-  /* display: none; */
-  /* transform: translateY(-220%); */
   background: url("./assets/background.png");
 }
 * {
