@@ -6,6 +6,7 @@ import Footer from './Footer.js'
 import Portfolio from './Portfolio.js'
 // 
 import "./index.css";
+import PortfolioModal from './components/PortfolioModal.js'
 
 function App() {
 	/* 
