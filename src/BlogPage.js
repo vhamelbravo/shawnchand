@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
-import { createClient } from "contentful";
+import { useParams } from "react-router-dom";
 import { Link, Route } from "react-router-dom";
+import { createClient } from "contentful";
+
 import client from "./client.js";
 import Navbar from "./Navbar.js";
 import Heading from "./components/Heading.js";
 import Footer from "./Footer.js";
-import Post from "./Post.js";
-import { useParams } from "react-router-dom";
+
 function BlogPage() {
   const [blogPosts, setBlogPosts] = useState([]);
   useEffect(() => {

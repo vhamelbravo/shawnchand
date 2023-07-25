@@ -1,4 +1,3 @@
-import { useState } from "react";
 import MobileNavbar from "./MobileNavbar";
 
 function Header() {

@@ -1,6 +1,7 @@
 import image from "./assets/person.png";
 import Navbar from "./Navbar";
 function Profile() {
+  
   const factsList = [
     {text : "- Proudly hailing from Canada."},
     {text : "- I harbor a deep affection for adorable koalas."},

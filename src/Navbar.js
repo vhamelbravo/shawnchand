@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 import insta from "./assets/instagram.png";
 import twitter from "./assets/twitter.png";
 import discord from "./assets/discord.png";
@@ -10,14 +12,9 @@ import navAbout from "./assets/navAbout.png";
 import navBlog from "./assets/navBlog.png";
 import navPortfolio from "./assets/navPortfolio.png";
 import navContact from "./assets/navContact.png";
-import placeholder from "./assets/placeholder.png";
-import Modal from "./Modal";
-import { Link } from "react-router-dom";
-import "./index.css";
 import PortfolioModal from "./components/PortfolioModal";
-function Navbar() {
-  const [visibility, setvisibility] = useState(true);
-  
+
+function Navbar() {  
   const [active, setActive] = useState(false);
   const toggle = () => {
     setActive(!active);
@@ -25,17 +22,7 @@ function Navbar() {
     document.body.style.height = active ? "auto":"85vh";
     document.body.style.width = "100%";
   };
-  const [isVisible, setIsVisible] = useState(1);
 
-  const handleClick = () => {
-    if (isVisible === 1) {
-      setIsVisible(2);
-    } else if (isVisible === 2) {
-      setIsVisible(3);
-    } else if (isVisible === 3) {
-      setIsVisible(1);
-    }
-  };
   const navbarList = [
     { linkTo: "/", img: navHome, text: "Home" },
     { linkTo: "/about", img: navAbout, text: "About" },

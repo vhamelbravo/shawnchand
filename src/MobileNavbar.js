@@ -10,22 +10,10 @@ import navAbout from "./assets/navAbout.png";
 import navBlog from "./assets/navBlog.png";
 import navPortfolio from "./assets/navPortfolio.png";
 import navContact from "./assets/navContact.png";
-import placeholder from "./assets/placeholder.png";
-import Modal from "./Modal";
 import { Link } from "react-router-dom";
 import "./index.css";
-import PortfolioModal from "./components/PortfolioModal";
 import PortfolioModalMobile from "./components/PortfolioModalMobile";
 
-{
-  /* <span
-role={"button"}
-onClick={handleClick}
-className="text-2xl text-white pt-5 md:hidden"
->
-X
-</span> */
-}
 
 const MobileNavbar = () => {
   const [active, setActive] = useState(false);

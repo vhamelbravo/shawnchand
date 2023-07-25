@@ -19,6 +19,7 @@ function Blog() {
     };
     getAllEntries();
   }, []);
+
   return (
     <>
       <div className="flex justify-center md:py-12">
@@ -41,7 +42,7 @@ function Blog() {
               );
             })}
             <p className="text-cyan-500 py-3 text-xl hover:underline">
-              <Link to="/blog"> Read More </Link>{" "}
+              <Link to="/blog"> Read More </Link>
             </p>
           </div>
         </div>
