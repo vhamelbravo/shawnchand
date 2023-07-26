@@ -18,8 +18,8 @@ function Navbar() {
   const [active, setActive] = useState(false);
   const toggle = () => {
     setActive(!active);
-    document.body.style.overflow = active ? "auto": "hidden";
-    document.body.style.height = active ? "auto":"85vh";
+    document.body.style.overflow = active ? "hidden": "auto";
+    document.body.style.height = active ? "auto":"200vh";
     document.body.style.width = "100%";
   };
 

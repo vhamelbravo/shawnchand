@@ -270,7 +270,7 @@ template {
 }
 
 html {
-  min-height: 100vh;
+  /* min-height: 120vh; */
   text-rendering: optimizeLegibility !important;
   font-family: "silkscreen", cursive;
   background-image: url("./assets/background.png");

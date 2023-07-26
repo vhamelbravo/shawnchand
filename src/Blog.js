@@ -4,13 +4,13 @@ import client from "./client.js";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import "./index.css";
+
 function Blog() {
   const [blogPosts, setBlogPosts] = useState([]);
   useEffect(() => {
     const getAllEntries = async () => {
       try {
         await client.getEntries().then((entries) => {
-          console.log(entries);
           setBlogPosts(entries);
         });
       } catch (error) {

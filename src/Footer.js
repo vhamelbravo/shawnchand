@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="relative w-[100%] bottom-0">
+    <div className="w-[100%]">
       <div className="  flex justify-center py-6 text-center text-sm sm:text-xl">
         <p className=" text-white ">
           Website made by

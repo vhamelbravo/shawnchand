@@ -56,9 +56,9 @@ const PortfolioModal = () => {
   ];
   function project(title, description, link) {
     return (
-      <div className="relative h-[23rem] w-[23rem]">
+      <div className="relative h-[23rem] w-[23rem] z-[100]">
         <img src={placeholder} className="absolute top-0 hover:opacity-50 " />
-        <div className=" flex justify-center items-start  h-[100%] w-[100%]">
+        <div className="flex justify-center items-start  h-[100%] w-[100%]">
           <div className="h-[70%] w-[90%] flex flex-col justify-between items-start">
             <div>
               <h1 className="text-white text-3xl py-5">{title}</h1>
