@@ -10,12 +10,7 @@ Link to project: http://www.shawnjc.ca
 
 Tech used: React, TailwindCSS
 
-This is a fairly complex site, specially considering it had to be built from scratch to match the specific aesthetic the client was looking for, there are multiple 
+This is a fairly complex site, specially considering it had to be built from scratch to match the specific aesthetic the client was looking for, there are multiple features like a modal pop-up for the portfolio, and Conently's API implementation that allows the client to post new blogs, the site is also responsive for different screen sizes.
+# Lessons Learned:
 
-(optional)
-
-You don't have to include this section but interviewers love that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are GREAT to bring up in interviews and you can use this section as reference when studying for technical interviews!
-Lessons Learned:
-
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those whoa this is awesome or fuck yeah I did it! moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
+This is the first site i ever did using React.js, which was definitely a struggle to grasp at the beginning, however once i managed to understand it, i managed to speed up and optimize the process a lot more, which was crucial for such a large scale project, this is also my first time designing a site completely from scratch, so i had to review my design and CSS knowledge, and it was an extremely useful experience considering it used to be one of my main weak points as a developer
