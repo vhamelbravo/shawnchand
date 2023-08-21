@@ -4,7 +4,7 @@ Portfolio site for freelance, multi-disciplinary professional Shawn Chand, desig
 
 
 Link to project: http://www.shawnjc.ca
-
+![image](https://github.com/vhamelbravo/shawnchand/assets/127698758/66a5c07f-b275-464f-986b-0ccc665b6981)
 
 # How It's Made:
 
